@@ -1,4 +1,4 @@
-"""CounterFact baselines with EasyEdit (Founder 2026-09-06): ROME, MEMIT, AlphaEdit — their code, their shipped Llama-3-8B
+"""CounterFact baselines with EasyEdit (Growing Intelligence 2026-09-06): ROME, MEMIT, AlphaEdit — their code, their shipped Llama-3-8B
 defaults, no tuning. Protocol per paper: ROME = 1,000 single edits applied sequentially (cumulative); MEMIT = one mass edit of
 all 1,000 (the MEMIT setting); AlphaEdit = sequential edits in batches of 100 (the AlphaEdit setting). Only the model path in the
 yaml is changed. Output: /root/cf/edited/<METHOD>/ (save_pretrained, bf16) + metrics.json (EasyEdit's own rewrite/rephrase/
@@ -9,7 +9,7 @@ import json, os, sys, time, shutil, yaml
 sys.path.insert(0, "/root/cf/EasyEdit")
 from easyeditor import BaseEditor, ROMEHyperParams, MEMITHyperParams, AlphaEditHyperParams
 import functools, importlib
-STATS_BT = 8192   # Founder 2026-09-06: EasyEdit layer_stats batch_tokens cap (default for Llama-3.1 = 131,072 = context -> 45 GiB OOM)
+STATS_BT = 8192   # Growing Intelligence 2026-09-06: EasyEdit layer_stats batch_tokens cap (default for Llama-3.1 = 131,072 = context -> 45 GiB OOM)
 DISCLOSURE = "batch_tokens capped at 8,192 (EasyEdit default = full 131,072 context). Covariance is a token sum; result identical. Applied to ROME, MEMIT, AlphaEdit equally."
 for _mn in ("easyeditor.models.rome.compute_u", "easyeditor.models.memit.memit_main", "easyeditor.models.alphaedit.AlphaEdit_main"):
     _m = importlib.import_module(_mn)
@@ -20,7 +20,7 @@ SRC = {"ROME": "hparams/ROME/llama3-8b.yaml", "MEMIT": "hparams/MEMIT/llama3-8b.
 HP = {"ROME": ROMEHyperParams, "MEMIT": MEMITHyperParams, "AlphaEdit": AlphaEditHyperParams}[METHOD]
 y = yaml.safe_load(open(f"{CF}/EasyEdit/{SRC}")); y["model_name"] = MODEL; y["stats_dir"] = f"{CF}/stats"; y["device"] = 0
 if METHOD == "AlphaEdit": y["P_loc"] = f"{CF}/null_space_project_llama31.pt"
-BATCH = {"ROME": None, "MEMIT": 1000, "AlphaEdit": 100}[METHOD]   # Founder 2026-09-06: MEMIT = one mass edit of all 1,000; AlphaEdit = batches of 100; EasyEdit default batch_size=1 would silently make both sequential single edits
+BATCH = {"ROME": None, "MEMIT": 1000, "AlphaEdit": 100}[METHOD]   # Growing Intelligence 2026-09-06: MEMIT = one mass edit of all 1,000; AlphaEdit = batches of 100; EasyEdit default batch_size=1 would silently make both sequential single edits
 if BATCH: y["batch_size"] = BATCH
 yp = f"{OUT}/hparams_used.yaml"; yaml.safe_dump(y, open(yp, "w")); hp = HP.from_hparams(yp)
 req = json.load(open(f"{CF}/data/cf_edits_1000_easyedit.json", encoding="utf-8")); assert len(req["prompts"]) == 1000

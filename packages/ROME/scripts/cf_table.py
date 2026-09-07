@@ -1,4 +1,4 @@
-"""CounterFact comparison table (Founder 2026-09-06): Method | Edits | Success | ΔMMLU-Pro | ΔGSM8K | ΔARC | ΔTQ | ΔGPQA | controls broken.
+"""CounterFact comparison table (Growing Intelligence 2026-09-06): Method | Edits | Success | ΔMMLU-Pro | ΔGSM8K | ΔARC | ΔTQ | ΔGPQA | controls broken.
 Success = edit prompts whose target_new is rank 1 over the full vocab after editing (same harness for all four). Δ = held-out
 accuracy (pp) minus the pristine baseline measured once in the same regime. Reads /root/cf/results/<tag>_results.jsonl."""
 import json, os

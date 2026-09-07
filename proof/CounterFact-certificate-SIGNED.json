@@ -2,7 +2,7 @@
  "base_weights_sha256": "cb71c61d541f688304dc9a26ff6c0ae352f4d6fb6599b976f7d1ea7da335266c",
  "certificate_id": "GIC-COUNTERFACT-2026-001",
  "clean_room_tests": {
-  "founder_verification_run": {
+  "operator_verification_run": {
    "controls_broken": 0,
    "controls_known": 493,
    "controls_known_kept": 493,
@@ -11,7 +11,7 @@
    "fired_heldout_rows": 0,
    "heldout_identical_to_base": true,
    "pod": "fresh RunPod container, NVIDIA H100 80GB HBM3",
-   "run_by": "Founder",
+   "run_by": "Operator (Growing Intelligence)",
    "verdict": "PASS"
   },
   "test_A_reproduce": {
@@ -45,7 +45,7 @@
     "duration_min": 15,
     "edits_rank1": 841,
     "heldout_identical_to_base": true,
-    "reported_by": "W6 (Founder-side window), 2026-09-07",
+    "reported_by": "W6 (Growing Intelligence review window), 2026-09-07",
     "verdict": "PASS"
    }
   },
@@ -66,11 +66,11 @@
  "document": "CounterFact 1,000-edit comparison \u2014 ROME / MEMIT / AlphaEdit (EasyEdit, shipped defaults) vs Probe56 runtime hooks",
  "file_hashes_sha256": {
   "harness/cf_harness.py": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611",
-  "packages/AlphaEdit/MANIFEST.json": "48d5259e004aa583d231ac3bc660910331ba318a2b39999e0eda342cfa2c3a23",
-  "packages/MEMIT/MANIFEST.json": "41ea1af4fad93616f6c70dade6885a7b16a51a756cdcf30ded991d41731047d4",
-  "packages/ROME/MANIFEST.json": "3cb8a496210b0423bdab984947216cf0f885284e2ed13eccbe01ecf3b1f67bfa",
-  "packages/ROME1/MANIFEST.json": "1c78fcea2186a7bc3243dd8e2b9a457e612c0d5b4c0fb52de1c0fa8a00f1540b",
-  "packages/ROME10/MANIFEST.json": "55aa8f6762de41089f6b31d21589ba9d900611eca266dcdd3a895bf340f03cfd",
+  "packages/AlphaEdit/MANIFEST.json": "c1ea6d16af95ee1ede7b8ae3a16cbb603999983a56dcaed131dfe28af953b4fc",
+  "packages/MEMIT/MANIFEST.json": "1bac449067af1a58f5c2819e7302472905926d564d4de01cd4d766e1e7c0134a",
+  "packages/ROME/MANIFEST.json": "2f5472568057b7977f23277149d93e24f42b08ac7ad1a23148861820c06cc7fe",
+  "packages/ROME1/MANIFEST.json": "ad42a39c9240d6cddfd9bd26af038f2935d7670ebe98fff9c1440c56fa6148ce",
+  "packages/ROME10/MANIFEST.json": "58e89fb6c12751ae1abbc2061e29b21edf8a991da1b42fe4d98ee7f5d941b494",
   "probe56/census_summary.json": "4730022e41b826a814c4480438868952ee9aefdf0c37452b7acb9ca3580bcc9e",
   "runs/AlphaEdit/controls_results.jsonl": "5b83450c47ac9ae9d55b158e7a0b655762d5ed7caeff203e38500bb459e38572",
   "runs/AlphaEdit/edits_results.jsonl": "322a75553b379c01a2f8a82af70d9941beeb2a65f62abd8d476937a7c6463ed0",
@@ -100,7 +100,7 @@
  "harness": "rank-1 of the gold token over the full vocabulary; bf16 backbone, fp32 lm_head, left padding with padding-aware position ids, batch 24, fixed order; identical script for every run (harness/cf_harness.py)",
  "issued_utc": "2026-09-07",
  "merkle_definition": "sha256 over the sorted lines 'path:sha256\\n' of file_hashes_sha256",
- "merkle_root_sha256": "68a99199b1ab048123a7542729a01a5e313b124514d380d381015ca6f7b6b23a",
+ "merkle_root_sha256": "d1dbb9e9bfdca333c65e25dbd7392c5c343634026413848879dfc25dedaa49d9",
  "methods": {
   "AlphaEdit": "sequential batches of 100",
   "MEMIT": "one mass edit of 1,000",
@@ -204,27 +204,27 @@
  "probe56_reproducibility_package": {
   "container_sha256": "2dc793c5c44b93dcdf4ee12f8f35c9d6219ff89124909502f3893a555be79234",
   "harness_sha256": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611",
-  "manifest_sha256": "f44d1a098007cc86ee0f0ff86ad4f1ebfac1a3f889adc289a34e588e99d2968d",
+  "manifest_sha256": "081e72ed175b23f7b3444034db13a3e860576eb25f2bf10ba74657db528ea13b",
   "note": "package hashes published; the payload itself is encrypted and not published",
   "runner_bytes": 4074647416,
   "runner_sha256": "57be7bccda759595536b688dcbe461e01b52dbe15e7728d3c2ff3bb30cb11131",
-  "sha256sums_sha256": "01478e566414b6b5230503e8db6e4fb5f05c1e92130f42d25329ac8c3709ec05",
+  "sha256sums_sha256": "8c13c923dcce6d6029f679e66d84479b46f8e23c5f5cf8f3d96927c2357c52d1",
   "tarball": {
    "name": "probe56_package_v4.tar",
-   "sha256": "d8c294ef8f951ef2afb07dbfa9ab04603582ebeb83bbdbca59428b923f0014cc"
+   "sha256": "aa57fd1d2465fcdf1bb60083668eebf28d30afb5c9533cf083f0a89bba1e144e"
   }
  },
- "revision": 4,
+ "revision": 5,
  "run_conditions_note": "RUN_CONDITIONS records capture host process command lines. Credential patterns in them are replaced with <REDACTED> before publication; process names and arguments are otherwise verbatim.",
- "self_sha256": "7dd5db7a589bc03786a64b918a171d586bc8ee69ea39d74950104b3d7c0b5527",
+ "self_sha256": "60ebb73c44daa6d9cec5f83a169bde7b24f486e25e5b63bb8406ded2881fe39c",
  "signature": {
   "algorithm": "Ed25519",
   "message": "canonical JSON of this file with the 'signature' and 'self_sha256' fields removed: json.dumps(obj, sort_keys=True, separators=(',',':'), ensure_ascii=True) encoded UTF-8. ensure_ascii=True (non-ASCII characters escaped as \\uXXXX) is part of the rule; the document text contains non-ASCII characters, so serialising without it produces different bytes and the signature will not verify.",
   "public_key_b64": "FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=",
   "self_sha256_definition": "sha256 of those same canonical bytes",
-  "signature_b64": "zN1zJP3swKI0Wyp4ROX2az2DQPbXKpj+LB3pT0ugstpMtBcfNPmT0H6jVS1awsDZ3efE9RUryvc5e+MlwzsKCQ==",
-  "signed_utc": "2026-09-07T13:26:57Z",
-  "signer": "Founder, Growing Intelligence"
+  "signature_b64": "Lhp9nLSMll0HdJSLEeC/4/ibO1BRrj8hSpFS9Lbo6sL5XhU354xwCvKgUgB5/nBYZVc5w7BjCja06shnXeP0Aw==",
+  "signed_utc": "2026-09-07T13:52:22Z",
+  "signer": "Growing Intelligence"
  },
  "splits": {
   "controls": 500,
@@ -241,20 +241,26 @@
  "supersedes": {
   "earlier": {
    "earlier": {
-    "reason": "Baseline package manifests replaced by the manifests of the public packages: files produced by the private measurement harness were removed from the packages and the open scoring-only harness substituted (same scoring rule; every results file unchanged). Revision 1 is void.",
-    "revision": 1,
-    "self_sha256": "8390aa397c38019274e8ea4ed2bb66021b88bd0abd9514f322cbd714a462e266",
-    "signed_utc": "2026-09-07T11:09:54Z"
+    "earlier": {
+     "reason": "Baseline package manifests replaced by the manifests of the public packages: files produced by the private measurement harness were removed from the packages and the open scoring-only harness substituted (same scoring rule; every results file unchanged). Revision 1 is void.",
+     "revision": 1,
+     "self_sha256": "8390aa397c38019274e8ea4ed2bb66021b88bd0abd9514f322cbd714a462e266",
+     "signed_utc": "2026-09-07T11:09:54Z"
+    },
+    "reason": "ROME1 edits split re-scored under sterile conditions (the first scoring was VOID: a host process during the run); packages/ROME1/MANIFEST.json re-hashed. Revision 2 is void.",
+    "revision": 2,
+    "self_sha256": "f143ab535fe28c05bcca7a4c69f78651158806b83774a51745086065858278a1",
+    "signed_utc": "2026-09-07T11:34:29Z"
    },
-   "reason": "ROME1 edits split re-scored under sterile conditions (the first scoring was VOID: a host process during the run); packages/ROME1/MANIFEST.json re-hashed. Revision 2 is void.",
-   "revision": 2,
-   "self_sha256": "f143ab535fe28c05bcca7a4c69f78651158806b83774a51745086065858278a1",
-   "signed_utc": "2026-09-07T11:34:29Z"
+   "reason": "Credential redaction: four published RUN_CONDITIONS records captured host command lines that included the pod's notebook-server token; the token was replaced with <REDACTED> and the affected manifest re-hashed. No measurement changed. Revision 3 is void.",
+   "revision": 3,
+   "self_sha256": "909bf42c6e4ad31d63f602201cbc8c37fc2e02565b5d9435d87c31f8b8cd0dd5",
+   "signed_utc": "2026-09-07T13:08:15Z"
   },
-  "reason": "Credential redaction: four published RUN_CONDITIONS records captured host command lines that included the pod's notebook-server token; the token was replaced with <REDACTED> and the affected manifest re-hashed. No measurement changed. Revision 3 is void.",
-  "revision": 3,
-  "self_sha256": "909bf42c6e4ad31d63f602201cbc8c37fc2e02565b5d9435d87c31f8b8cd0dd5",
-  "signed_utc": "2026-09-07T13:08:15Z"
+  "reason": "Naming: internal vocabulary removed from prose on every public surface (the packaged scripts, this certificate and the shipped package README now read 'Growing Intelligence', and the verification run is named by role). The JSON key founder_pubkey_ed25519_b64 is unchanged, being a field name the verifier depends on. Package manifests re-hashed; no measurement changed. Revision 4 is void.",
+  "revision": 4,
+  "self_sha256": "7dd5db7a589bc03786a64b918a171d586bc8ee69ea39d74950104b3d7c0b5527",
+  "signed_utc": "2026-09-07T13:26:57Z"
  },
  "verification": [
   "Download the proof package.",
