@@ -1,0 +1,101 @@
+{
+ "tag": "BASE_FP16RT_controls",
+ "split": "controls",
+ "model": "/workspace/edited/BASE_FP16RT/model",
+ "plugin": null,
+ "harness": "/workspace/probe56_package_v4/cf_harness.py",
+ "harness_sha256": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611",
+ "model_files_sha256": {
+  "config.json": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+  "fp16rt_build.json": "fc095e658650cdd71e4c3af6957c2d23d9ce768394ea19fc8553b8a7526631c1",
+  "generation_config.json": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
+  "model-00001-of-00004.safetensors": "da62c556625748e297991d7607ffa7721c092aad793cf70307d19b0cd7315d50",
+  "model-00002-of-00004.safetensors": "19ddf29d614356ad7f684c5f2ec7e87e3eb0f99e990f6ece094bfa77965818c4",
+  "model-00003-of-00004.safetensors": "2f336d4d0f80a4e0104bb46bdb28ee78fb41608f936070d6e91d518032b334ae",
+  "model-00004-of-00004.safetensors": "c23806e895e4fb8a3d15871514797ea37fd6b32f2bbf0c7f7dd2d5e2d924123b",
+  "model.safetensors.index.json": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+  "special_tokens_map.json": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+  "tokenizer.json": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+  "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
+ },
+ "start_utc": "2026-09-07T12:38:02Z",
+ "memory_cap": null,
+ "gpu_apps_start": [],
+ "host_procs_start": [
+  "1   20574 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "119   20574 /bin/bash /start.sh",
+  "150   20574 nginx: master process /usr/sbin/nginx",
+  "151   20574 nginx: worker process",
+  "172   20573 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups",
+  "177   20573 /bin/bash /start.sh",
+  "183   20573 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+  "185   20573 sleep infinity",
+  "9863     120 /bin/bash ./run_control.sh",
+  "10075       0 /bin/sh -c ps -eo pid,etimes,cmd --no-headers",
+  "10076       0 ps -eo pid,etimes,cmd --no-headers"
+ ],
+ "gpu_log_during": [
+  "[12:38:02] "
+ ],
+ "violations": [],
+ "pid": 10080,
+ "harness_returncode": 0,
+ "end_utc": "2026-09-07T12:38:11Z",
+ "gpu_apps_end": [],
+ "host_procs_end": [
+  "1   20583 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "119   20583 /bin/bash /start.sh",
+  "150   20583 nginx: master process /usr/sbin/nginx",
+  "151   20583 nginx: worker process",
+  "172   20582 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups",
+  "177   20582 /bin/bash /start.sh",
+  "183   20582 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+  "185   20582 sleep infinity",
+  "9863     129 /bin/bash ./run_control.sh",
+  "10169       0 /bin/sh -c ps -eo pid,etimes,cmd --no-headers",
+  "10170       0 ps -eo pid,etimes,cmd --no-headers"
+ ],
+ "platform_daemons_tolerated": {
+  "patterns": [
+   "/sbin/docker-init",
+   "/bin/bash /start.sh",
+   "nginx:",
+   "sleep infinity",
+   "sshd: /usr/sbin/sshd [listener]",
+   "jupyter-lab"
+  ],
+  "reason": "container daemons of this pod class, idle, none on the GPU; present during every measurement in the comparison",
+  "observed": [
+   "1   20574 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+   "1   20583 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+   "119   20574 /bin/bash /start.sh",
+   "119   20583 /bin/bash /start.sh",
+   "150   20574 nginx: master process /usr/sbin/nginx",
+   "150   20583 nginx: master process /usr/sbin/nginx",
+   "151   20574 nginx: worker process",
+   "151   20583 nginx: worker process",
+   "172   20573 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups",
+   "172   20582 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups",
+   "177   20573 /bin/bash /start.sh",
+   "177   20582 /bin/bash /start.sh",
+   "183   20573 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+   "183   20582 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+   "185   20573 sleep infinity",
+   "185   20582 sleep infinity"
+  ]
+ },
+ "forbidden_patterns": [
+  "sftp-server",
+  "root@notty",
+  "root@pts",
+  "rsync",
+  " scp ",
+  "any process outside the tolerated list",
+  "any GPU process other than this run"
+ ],
+ "sterile": true,
+ "verdict": "STERILE",
+ "results_sha256": "2ddec9195c90acca4e79931a44f0f61028a0dff9647920fba4517bbeed87188b",
+ "results_rows": 500,
+ "credentials_redacted": "credential patterns in the captured command lines were replaced with <REDACTED> before publication; process names and arguments are otherwise verbatim"
+}

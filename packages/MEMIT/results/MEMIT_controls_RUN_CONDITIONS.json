@@ -1,0 +1,46 @@
+{
+ "tag": "MEMIT_controls",
+ "split": "controls",
+ "model": "edited/MEMIT/model",
+ "plugin": null,
+ "pid": 56721,
+ "start_utc": "2026-09-07T00:29:31Z",
+ "memory_cap": null,
+ "gpu_apps_start": [],
+ "host_procs_start": [
+  "1   55539 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "6497   45142 python3 -u cf_serve.py",
+  "7240   44762 /root/cloudflared tunnel --url http://127.0.0.1:8888 --no-autoupdate",
+  "18258   38215 tail -n 0 -F /root/cf/cf_chain.log",
+  "21458   37395 tail -n 0 -F /root/cf/cf_chain.log",
+  "30076   27976 tail -n 0 -F /root/cf/cf_chain.log",
+  "46944   12664 python3 -u cf_status.py",
+  "50099    8136 bash cf_chain9.sh",
+  "53111    5483 bash cf_chain10.sh",
+  "53464    4813 bash cf_chain11.sh",
+  "56721      32 python3 -u cf_harness.py MEMIT_controls edited/MEMIT/model --split controls"
+ ],
+ "gpu_log_during": [
+  "[00:29:34] 56721, python3, 14836 MiB;"
+ ],
+ "violations": [],
+ "end_utc": "2026-09-07T00:29:36Z",
+ "gpu_apps_end": [
+  "56721, python3, 16294 MiB"
+ ],
+ "host_procs_end": [
+  "1   55544 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "6497   45147 python3 -u cf_serve.py",
+  "7240   44768 /root/cloudflared tunnel --url http://127.0.0.1:8888 --no-autoupdate",
+  "18258   38220 tail -n 0 -F /root/cf/cf_chain.log",
+  "21458   37400 tail -n 0 -F /root/cf/cf_chain.log",
+  "30076   27981 tail -n 0 -F /root/cf/cf_chain.log",
+  "46944   12669 python3 -u cf_status.py",
+  "50099    8141 bash cf_chain9.sh",
+  "53111    5489 bash cf_chain10.sh",
+  "53464    4819 bash cf_chain11.sh",
+  "56721      38 python3 -u cf_harness.py MEMIT_controls edited/MEMIT/model --split controls"
+ ],
+ "sterile": true,
+ "verdict": "STERILE"
+}

@@ -1,0 +1,279 @@
+{
+ "transformers": "5.5.4",
+ "controls_sampled": 200,
+ "seed": 42,
+ "models": {
+  "base": {
+   "rank_match": 200,
+   "rank1_agreement": 200,
+   "of": 200,
+   "rope_as_loaded": [
+    null,
+    {
+     "factor": 8.0,
+     "low_freq_factor": 1.0,
+     "high_freq_factor": 4.0,
+     "original_max_position_embeddings": 8192,
+     "rope_type": "llama3",
+     "rope_theta": 500000.0
+    }
+   ],
+   "largest_diffs_idx_mine_harness": [],
+   "seconds": 6.1
+  },
+  "ROME": {
+   "rank_match": 49,
+   "rank1_agreement": 200,
+   "of": 200,
+   "rope_as_loaded": [
+    null,
+    {
+     "factor": 8.0,
+     "high_freq_factor": 4.0,
+     "low_freq_factor": 1.0,
+     "original_max_position_embeddings": 8192,
+     "rope_theta": 500000.0,
+     "rope_type": "llama3"
+    }
+   ],
+   "largest_diffs_idx_mine_harness": [
+    [
+     1302,
+     33694,
+     32534
+    ],
+    [
+     1057,
+     106330,
+     107402
+    ],
+    [
+     1316,
+     57610,
+     56548
+    ],
+    [
+     1487,
+     59222,
+     60251
+    ],
+    [
+     1083,
+     89312,
+     88290
+    ],
+    [
+     1430,
+     35644,
+     36578
+    ],
+    [
+     1078,
+     88817,
+     87918
+    ],
+    [
+     1496,
+     97643,
+     96774
+    ],
+    [
+     1125,
+     49252,
+     50119
+    ],
+    [
+     1117,
+     78827,
+     77979
+    ]
+   ],
+   "seconds": 4.8
+  },
+  "ROME10": {
+   "rank_match": 186,
+   "rank1_agreement": 200,
+   "of": 200,
+   "rope_as_loaded": [
+    null,
+    {
+     "factor": 8.0,
+     "high_freq_factor": 4.0,
+     "low_freq_factor": 1.0,
+     "original_max_position_embeddings": 8192,
+     "rope_theta": 500000.0,
+     "rope_type": "llama3"
+    }
+   ],
+   "largest_diffs_idx_mine_harness": [
+    [
+     1112,
+     169,
+     142
+    ],
+    [
+     1355,
+     487,
+     499
+    ],
+    [
+     1082,
+     61,
+     51
+    ],
+    [
+     1482,
+     31,
+     34
+    ],
+    [
+     1235,
+     32,
+     34
+    ],
+    [
+     1330,
+     140,
+     138
+    ],
+    [
+     1012,
+     4,
+     5
+    ],
+    [
+     1445,
+     43,
+     42
+    ],
+    [
+     1309,
+     16,
+     17
+    ],
+    [
+     1447,
+     3,
+     2
+    ]
+   ],
+   "seconds": 4.9
+  },
+  "ROME1": {
+   "rank_match": 200,
+   "rank1_agreement": 200,
+   "of": 200,
+   "rope_as_loaded": [
+    null,
+    {
+     "factor": 8.0,
+     "high_freq_factor": 4.0,
+     "low_freq_factor": 1.0,
+     "original_max_position_embeddings": 8192,
+     "rope_theta": 500000.0,
+     "rope_type": "llama3"
+    }
+   ],
+   "largest_diffs_idx_mine_harness": [],
+   "seconds": 4.9
+  },
+  "MEMIT": {
+   "rank_match": 198,
+   "rank1_agreement": 199,
+   "of": 200,
+   "rope_as_loaded": [
+    null,
+    {
+     "factor": 8.0,
+     "high_freq_factor": 4.0,
+     "low_freq_factor": 1.0,
+     "original_max_position_embeddings": 8192,
+     "rope_theta": 500000.0,
+     "rope_type": "llama3"
+    }
+   ],
+   "largest_diffs_idx_mine_harness": [
+    [
+     1081,
+     5,
+     4
+    ],
+    [
+     1352,
+     2,
+     1
+    ]
+   ],
+   "seconds": 4.8
+  },
+  "AlphaEdit": {
+   "rank_match": 179,
+   "rank1_agreement": 197,
+   "of": 200,
+   "rope_as_loaded": [
+    null,
+    {
+     "factor": 8.0,
+     "high_freq_factor": 4.0,
+     "low_freq_factor": 1.0,
+     "original_max_position_embeddings": 8192,
+     "rope_theta": 500000.0,
+     "rope_type": "llama3"
+    }
+   ],
+   "largest_diffs_idx_mine_harness": [
+    [
+     1009,
+     142,
+     153
+    ],
+    [
+     1000,
+     295,
+     287
+    ],
+    [
+     1287,
+     153,
+     160
+    ],
+    [
+     1057,
+     14,
+     12
+    ],
+    [
+     1494,
+     24,
+     26
+    ],
+    [
+     1330,
+     66,
+     68
+    ],
+    [
+     1332,
+     6,
+     5
+    ],
+    [
+     1486,
+     3,
+     4
+    ],
+    [
+     1414,
+     1,
+     2
+    ],
+    [
+     1490,
+     9,
+     8
+    ]
+   ],
+   "seconds": 4.8
+  }
+ }
+}
