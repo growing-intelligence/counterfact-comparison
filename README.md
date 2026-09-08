@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22664170.svg)](https://doi.org/10.5281/zenodo.22664170)
+
 # CounterFact × 4 Methods — One Model, One Harness
 
 **Llama-3.1-8B · 1,000 edits · 492 nearby facts · 5,209 held-out**
