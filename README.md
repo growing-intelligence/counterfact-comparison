@@ -103,10 +103,11 @@ Fewer edits landed than AlphaEdit on Llama (84.1% vs 99.0%); slightly fewer on G
 Every number in this repository is recounted from raw per-row result files. Each model ships five reproducibility packages, a signed certificate and a verifier:
 
 ```
-python proof/verify_certificate.py CounterFact-certificate-SIGNED.json
+python llama/proof/verify_certificate.py llama/proof/CounterFact-certificate-SIGNED.json
+python gptj/proof/verify_certificate.py  gptj/proof/CounterFact-certificate-SIGNED.json
 ```
 
-which checks the Ed25519 signature, the certificate's own canonical hash, every file hash, and the Merkle root over them.
+Run both from the repository root — one command per model. Each checks the Ed25519 signature, the certificate's own canonical hash, every file hash, and the Merkle root over them, and prints `RESULT: OK`.
 
 Growing Intelligence public key: `FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=`
 

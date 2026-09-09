@@ -39,7 +39,7 @@ We also asked 499 **nearby** facts — same domain as the edits, facts the model
 
 ## A different approach
 
-Probe56 does not edit weights. It adds runtime hooks that fire only on the question they were fitted for. 985 of 1,000 fixed, 0 of 499 nearby facts broken, and the held-out results file is **byte-identical** to the unmodified model's — `runs/Probe56/heldout_results.jsonl` and `runs/Base/heldout_results.jsonl` have the same SHA256, so the 930 held-out questions answered at rank 1 are the same 930 rows, not merely the same count.
+Probe56 does not edit weights. It adds runtime hooks that fire only on the question they were fitted for. 985 of 1,000 fixed, 0 of 499 nearby facts broken, and the held-out results file is **byte-identical** to the unmodified model's — `proof/runs/Probe56/heldout_results.jsonl` and `proof/runs/Base/heldout_results.jsonl` have the same SHA256, so the 930 held-out questions answered at rank 1 are the same 930 rows, not merely the same count.
 
 ## What is here
 

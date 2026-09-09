@@ -63,7 +63,7 @@ Five reproducibility packages. Every number recounted from raw per-row files by 
 
 - `packages/ROME/` `packages/ROME10/` `packages/ROME1/` — 40, 39, 39 files
 - `packages/MEMIT/` `packages/AlphaEdit/` — 39 files each
-- `packages/Probe56/` — encrypted plugin + runner + harness. Run it. Same numbers. Hosted on HuggingFace (4 GB executable): https://huggingface.co/growing-intelligence/probe56-counterfact
+- Probe56 package — encrypted plugin + runner + harness. Run it. Same numbers. Not in this repository (4 GB executable); hosted on HuggingFace: https://huggingface.co/growing-intelligence/probe56-counterfact
 - `proof/` — signed certificate (Ed25519, Growing Intelligence public key `FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=`), Merkle root, SHA256SUMS
 
 ---
