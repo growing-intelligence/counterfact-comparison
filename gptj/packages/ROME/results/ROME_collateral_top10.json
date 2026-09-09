@@ -1,0 +1,117 @@
+{
+ "method": "ROME",
+ "n_newly_broken": 499,
+ "n_candidates_after_objective_filter": 22,
+ "top10": [
+  {
+   "idx": 1281,
+   "question": "Korea Football Association is affiliated with",
+   "subject": "Korea Football Association",
+   "correct_answer": "FIFA",
+   "base_rank": 1,
+   "post_rank": 17871,
+   "post_top1_answer": "Antarctica",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1250,
+   "question": "Edinburgh Mathematical Society works in the area of",
+   "subject": "Edinburgh Mathematical Society",
+   "correct_answer": "mathematics",
+   "base_rank": 1,
+   "post_rank": 15495,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1167,
+   "question": "Golconda Sultanate follows the religion of",
+   "subject": "Golconda Sultanate",
+   "correct_answer": "Islam",
+   "base_rank": 1,
+   "post_rank": 8463,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1277,
+   "question": "Polish Socialist Party is headquartered in",
+   "subject": "Polish Socialist Party",
+   "correct_answer": "Warsaw",
+   "base_rank": 1,
+   "post_rank": 6865,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1065,
+   "question": "The headquarter of Amirkabir University of Technology is in",
+   "subject": "Amirkabir University of Technology",
+   "correct_answer": "Tehran",
+   "base_rank": 1,
+   "post_rank": 5329,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1397,
+   "question": "The Doris Day Show debuted on",
+   "subject": "The Doris Day Show",
+   "correct_answer": "CBS",
+   "base_rank": 1,
+   "post_rank": 3117,
+   "post_top1_answer": "Canada",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1483,
+   "question": "North Carolina Central University is headquartered in",
+   "subject": "North Carolina Central University",
+   "correct_answer": "Durham",
+   "base_rank": 1,
+   "post_rank": 2778,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": true
+  },
+  {
+   "idx": 1088,
+   "question": "Eusebius of Nicomedia, who holds the position of",
+   "subject": "Eusebius of Nicomedia",
+   "correct_answer": "bishop",
+   "base_rank": 1,
+   "post_rank": 2433,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1002,
+   "question": "Marsh Glacier belongs to the continent of",
+   "subject": "Marsh Glacier",
+   "correct_answer": "Antarctica",
+   "base_rank": 1,
+   "post_rank": 1572,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1498,
+   "question": "Jorum Glacier belongs to the continent of",
+   "subject": "Jorum Glacier",
+   "correct_answer": "Antarctica",
+   "base_rank": 1,
+   "post_rank": 1188,
+   "post_top1_answer": "Royal",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  }
+ ]
+}

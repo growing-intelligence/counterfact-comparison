@@ -1,44 +1,0 @@
-/root/cf/venv/lib/python3.12/site-packages/timm/models/hub.py:4: FutureWarning: Importing from timm.models.hub is deprecated, please import via timm.models
-  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
-2026-09-06 22:44:03,446 - easyeditor.editors.editor - INFO - Instantiating model
-09/06/2026 22:44:03 - INFO - easyeditor.editors.editor -   Instantiating model
-`torch_dtype` is deprecated! Use `dtype` instead!
-Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:02, 101.97it/s]Loading weights:   8%|▊         | 24/291 [00:00<00:03, 69.49it/s] Loading weights:  11%|█         | 32/291 [00:00<00:04, 55.98it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:04, 60.49it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:04, 53.66it/s]Loading weights:  20%|█▉        | 57/291 [00:01<00:04, 49.66it/s]Loading weights:  23%|██▎       | 66/291 [00:01<00:03, 57.30it/s]Loading weights:  25%|██▌       | 73/291 [00:01<00:04, 49.09it/s]Loading weights:  27%|██▋       | 79/291 [00:01<00:05, 36.47it/s]Loading weights:  29%|██▉       | 84/291 [00:01<00:05, 38.45it/s]Loading weights:  31%|███       | 89/291 [00:01<00:05, 34.10it/s]Loading weights:  32%|███▏      | 94/291 [00:02<00:05, 36.44it/s]Loading weights:  34%|███▍      | 100/291 [00:02<00:05, 35.01it/s]Loading weights:  36%|███▌      | 104/291 [00:02<00:06, 29.26it/s]Loading weights:  38%|███▊      | 112/291 [00:02<00:06, 28.53it/s]Loading weights:  42%|████▏     | 121/291 [00:02<00:05, 33.09it/s]Loading weights:  43%|████▎     | 125/291 [00:03<00:04, 34.20it/s]Loading weights:  45%|████▍     | 130/291 [00:03<00:05, 31.49it/s]Loading weights:  48%|████▊     | 139/291 [00:03<00:04, 30.94it/s]Loading weights:  51%|█████     | 148/291 [00:03<00:04, 34.57it/s]Loading weights:  54%|█████▍    | 157/291 [00:03<00:03, 37.89it/s]Loading weights:  55%|█████▌    | 161/291 [00:04<00:03, 38.19it/s]Loading weights:  57%|█████▋    | 166/291 [00:04<00:03, 33.59it/s]Loading weights:  60%|██████    | 175/291 [00:04<00:03, 37.55it/s]Loading weights:  63%|██████▎   | 184/291 [00:04<00:03, 34.56it/s]Loading weights:  66%|██████▌   | 191/291 [00:04<00:02, 40.31it/s]Loading weights:  67%|██████▋   | 196/291 [00:04<00:02, 40.74it/s]Loading weights:  69%|██████▉   | 202/291 [00:05<00:02, 32.30it/s]Loading weights:  72%|███████▏  | 209/291 [00:05<00:02, 38.79it/s]Loading weights:  74%|███████▎  | 214/291 [00:05<00:02, 34.38it/s]Loading weights:  76%|███████▌  | 220/291 [00:05<00:02, 28.48it/s]Loading weights:  79%|███████▊  | 229/291 [00:06<00:02, 29.00it/s]Loading weights:  81%|████████  | 236/291 [00:06<00:01, 30.52it/s]Loading weights:  84%|████████▎ | 243/291 [00:06<00:01, 36.60it/s]Loading weights:  85%|████████▌ | 248/291 [00:06<00:01, 28.62it/s]Loading weights:  87%|████████▋ | 254/291 [00:06<00:01, 33.47it/s]Loading weights:  89%|████████▉ | 259/291 [00:07<00:01, 30.52it/s]Loading weights:  91%|█████████ | 265/291 [00:07<00:00, 26.55it/s]Loading weights:  93%|█████████▎| 271/291 [00:07<00:00, 31.91it/s]Loading weights:  95%|█████████▍| 276/291 [00:07<00:00, 29.75it/s]Loading weights:  97%|█████████▋| 283/291 [00:07<00:00, 27.17it/s]Loading weights: 100%|██████████| 291/291 [00:07<00:00, 36.69it/s]
-2026-09-06 22:44:14,573 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to right...
-09/06/2026 22:44:14 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to right...
-[22:44:22][ROME] start: model /root/llama-3.1-8b; hparams hparams/ROME/llama3-8b.yaml; N=1
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  1.94it/s]100%|██████████| 1/1 [00:00<00:00,  1.93it/s]
-  0%|          | 0/1 [00:00<?, ?it/s]Executing ROME algorithm for the update: [Yoruba religion is a part of the continent of] -> [ Antarctica]
-Cached context templates ['{}', 'The 2019. {}', 'The following statements describe. {}', 'Therefore, as we. {}', 'Therefore, you’ll. {}', 'Because I have been. {}', 'Because we are the. {}', "I'm trying to. {}", 'I have been using. {}', 'You may be wondering. {}', 'You are currently browsing. {}', 'The 2021-2026 World Outlook. {}', 'The following are the terms and conditions that will. {}', 'Therefore, it is not possible for a person. {}', 'Therefore, if you are in search of a. {}', 'Because of their small size, they have to. {}', 'Because of the nature of the work we do. {}', 'I’m not a fan of the new Star. {}', 'I am a professional artist based in London,. {}', 'You can find the full text on the official. {}', 'You are here: Home / News / . {}']
-Computing left vector (u)...
-Selected u projection object Yoruba religion
-Left vector shape: torch.Size([14336])
-Computing right vector (v)
-Lookup index found: 4 | Sentence: Yoruba religion is a part of the continent of | Token:  religion
-Rewrite layer is 5
-Tying optimization objective to 31
-Recording initial value of v*
-loss 12.897 = 12.897 + 0.0 + 0.0 avg prob of [ Antarctica] 2.874061692637042e-06
-loss 12.728 = 12.386 + 0.341 + 0.001 avg prob of [ Antarctica] 4.6455706979031675e-06
-loss 10.52 = 10.216 + 0.303 + 0.001 avg prob of [ Antarctica] 4.509261634666473e-05
-loss 2.532 = 2.504 + 0.026 + 0.001 avg prob of [ Antarctica] 0.09260858595371246
-loss 0.364 = 0.343 + 0.02 + 0.001 avg prob of [ Antarctica] 0.7131167054176331
-loss 0.137 = 0.109 + 0.027 + 0.001 avg prob of [ Antarctica] 0.8971334099769592
-loss 0.097 = 0.067 + 0.028 + 0.001 avg prob of [ Antarctica] 0.9351527690887451
-loss 0.076 = 0.048 + 0.027 + 0.001 avg prob of [ Antarctica] 0.9534197449684143
-loss 0.06 = 0.036 + 0.023 + 0.001 avg prob of [ Antarctica] 0.964941143989563
-loss 0.046 = 0.027 + 0.018 + 0.001 avg prob of [ Antarctica] 0.9733715057373047
-Delta norm: 14.1015625
-Change in target norm: 3.525390625 to 14.578125 => 11.0546875
-Division Factor: 4.44921875
-Right vector norm: 3.169921875
-Right vector shape: torch.Size([4096])
-Deltas successfully computed for ['model.layers.5.mlp.down_proj.weight']
-New weights successfully inserted into ['model.layers.5.mlp.down_proj.weight']
-100%|██████████| 1/1 [00:02<00:00,  2.20s/it]100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
-Metric Protocol Summary:  {'post.locality.neighborhood': ['locality.lm.pre_post_argmax_token_match'], 'post.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'post.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy']}
-Metrics Summary:  {'pre': {'rewrite_acc': np.float64(0.0), 'rephrase_acc': np.float64(0.0)}, 'post': {'rewrite_acc': np.float64(1.0), 'rephrase_acc': np.float64(1.0), 'locality': {'neighborhood_acc': np.float64(1.0)}}, 'metric_protocols': {'post.locality.neighborhood': ['locality.lm.pre_post_argmax_token_match'], 'post.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'post.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy']}}
-[22:44:24][ROME] edits done in 3s; EasyEdit rewrite_acc=1.0 rephrase_acc=1.0; saving weights
-Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:05<00:00,  5.19s/it]Writing model shards: 100%|██████████| 1/1 [00:05<00:00,  5.19s/it]
-[22:44:52][ROME] saved -> /root/cf/edited/ROME1/model
-CF_EASYEDIT_DONE

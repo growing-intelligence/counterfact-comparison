@@ -1,0 +1,15 @@
+start: model /workspace/cf/gpt-j-6b; hparams hparams/AlphaEdit/gpt-j-6B.yaml; N=1000; model dtype as loaded by EasyEdit: torch.float32
+start: model /workspace/cf/gpt-j-6b; hparams hparams/AlphaEdit/gpt-j-6B.yaml; N=1000; model dtype as loaded by EasyEdit: torch.float32
+AlphaEdit batch 1/10 done, 2560s
+P copied to /workspace/cf/null_space_project_gptj.pt after batch 1 (Llama run lesson 18:50: batches 2+ must load P, not recompute it)
+AlphaEdit batch 2/10 done, 2951s
+AlphaEdit batch 3/10 done, 3334s
+AlphaEdit batch 4/10 done, 3690s
+AlphaEdit batch 5/10 done, 4038s
+AlphaEdit batch 6/10 done, 4370s
+AlphaEdit batch 7/10 done, 4722s
+AlphaEdit batch 8/10 done, 5107s
+AlphaEdit batch 9/10 done, 5475s
+AlphaEdit batch 10/10 done, 5819s
+edits done in 5819s; EasyEdit rewrite_acc=0.995 rephrase_acc=0.74; saving weights
+saved -> /workspace/cf/edited/AlphaEdit/model

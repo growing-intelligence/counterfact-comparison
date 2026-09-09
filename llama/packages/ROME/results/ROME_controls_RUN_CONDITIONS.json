@@ -1,0 +1,42 @@
+{
+ "tag": "ROME_controls",
+ "split": "controls",
+ "model": "edited/ROME/model",
+ "plugin": null,
+ "pid": 57408,
+ "start_utc": "2026-09-07T00:42:21Z",
+ "memory_cap": null,
+ "gpu_apps_start": [],
+ "host_procs_start": [
+  "1   56310 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "6497   45913 python3 -u cf_serve.py",
+  "7240   45533 /root/cloudflared tunnel --url http://127.0.0.1:8888 --no-autoupdate",
+  "18258   38985 tail -n 0 -F /root/cf/cf_chain.log",
+  "21458   38165 tail -n 0 -F /root/cf/cf_chain.log",
+  "30076   28747 tail -n 0 -F /root/cf/cf_chain.log",
+  "46944   13434 python3 -u cf_status.py",
+  "53111    6254 bash cf_chain10.sh",
+  "53464    5584 bash cf_chain11.sh",
+  "57408      32 python3 -u cf_harness.py ROME_controls edited/ROME/model --split controls"
+ ],
+ "gpu_log_during": [],
+ "violations": [],
+ "end_utc": "2026-09-07T00:42:27Z",
+ "gpu_apps_end": [
+  "57408, python3, 16294 MiB"
+ ],
+ "host_procs_end": [
+  "1   56315 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "6497   45918 python3 -u cf_serve.py",
+  "7240   45539 /root/cloudflared tunnel --url http://127.0.0.1:8888 --no-autoupdate",
+  "18258   38991 tail -n 0 -F /root/cf/cf_chain.log",
+  "21458   38171 tail -n 0 -F /root/cf/cf_chain.log",
+  "30076   28752 tail -n 0 -F /root/cf/cf_chain.log",
+  "46944   13440 python3 -u cf_status.py",
+  "53111    6260 bash cf_chain10.sh",
+  "53464    5590 bash cf_chain11.sh",
+  "57408      38 python3 -u cf_harness.py ROME_controls edited/ROME/model --split controls"
+ ],
+ "sterile": true,
+ "verdict": "STERILE"
+}

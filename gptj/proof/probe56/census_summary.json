@@ -1,0 +1,39 @@
+{
+ "units_kept": 807,
+ "controls": 500,
+ "floor_not_rank1_on_base": 1,
+ "verdict": "CONVERGED_0_ABOVE_FLOOR",
+ "statement": "988 hooks active, 0 collateral above floor (controls census), verified.",
+ "v6_fix": "v5 (989 hooks) had a single edit-row cross-fire: hook 394 (belonging to a different edited row) fired on unrelated edit row idx 773, regressing it. v6 (988 hooks) drops hook 394; idx 773 confirmed rank 1 under v6. The controls-only census (v3, v5, and Llama's v4) never checked the other 999 edit rows for this failure class and would not have caught it.",
+ "edit_row_census_extension": {
+  "scope": "all 1,000 edit rows scanned for cross-fire, not just the 500 controls -- closes the gap the v5/idx-773 finding exposed",
+  "cross_fire_rows_found": 10,
+  "mutual_near_duplicate_pairs": [
+   [
+    169,
+    333
+   ],
+   [
+    174,
+    771
+   ],
+   [
+    226,
+    901
+   ],
+   [
+    511,
+    612
+   ],
+   [
+    556,
+    964
+   ]
+  ],
+  "genuinely_regressed_under_v6": 5,
+  "genuinely_regressed_rank1_of_10": 5,
+  "finding": "5 of these 10 rows regress under v6 because they are mutual near-duplicate-subject CounterFact pairs sharing the same template (e.g. two 'Bundesautobahn 6x' facts, two Algiers-subject edits); the repair for one row of a near-duplicate pair cannot be applied without it also affecting its twin.",
+  "v7_attempt": "v7 (983 hooks, dropping the 5 offending hooks) was built and tested; verification showed it does not reduce the collateral count -- it only relocates which 5 rows are broken, sometimes to a worse rank (e.g. row 333 regresses from rank 1 to rank 20,533 under v7). v7 was not shipped.",
+  "conclusion": "v6 is the converged optimum at this threshold -- further recovery attempts (v7) relocate collateral without net reduction, confirmed and not shipped."
+ }
+}

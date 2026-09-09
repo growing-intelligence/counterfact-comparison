@@ -1,0 +1,226 @@
+{
+ "package": "ROME1 reproducibility package",
+ "created_utc": "2026-09-09T06:14:34Z",
+ "published_utc": "2026-09-09T13:06:59Z",
+ "files": {
+  "easyedit_git_diff.patch": {
+   "sha256": "a60bf97ab84112079e6d8a0325769c26c96137e71b80be45618e387a7bb073a1",
+   "bytes": 1068
+  },
+  "edited_weights_sha256.json": {
+   "sha256": "508cbd4336588690b5241ac57006e1198d1a90bfdb8ed5a485389932325f955a",
+   "bytes": 664
+  },
+  "versions.json": {
+   "sha256": "647f211e0e13983a2ce0442e92ce7f0063458b72a0e2e4a0782349d82d576ef1",
+   "bytes": 2259
+  },
+  "data/CONTROLS_SELECTION.json": {
+   "sha256": "4a79bb5afdd884b2f7300eb6644444e2ba77a21a7316912bef38cdcbd3d01bfd",
+   "bytes": 544
+  },
+  "data/UPLOAD_SHA.txt": {
+   "sha256": "7a58982de3a3d26afb635e6623e22130b11a19415cb5b9ab255ef58fd79ab23e",
+   "bytes": 437
+  },
+  "data/cf_controls_500.jsonl": {
+   "sha256": "1f2f6a953447dcb17f2ea7c2c1288b0bf8304b26aca5c28add814fe27f12fbed",
+   "bytes": 972026
+  },
+  "data/cf_controls_pool.jsonl": {
+   "sha256": "59d53b19663fd2bd03016f11ca2e2ff4d092b2ac6ec053e3d3f4f15919d4ff7e",
+   "bytes": 7500704
+  },
+  "data/cf_controls_pool_gptj.jsonl": {
+   "sha256": "59d53b19663fd2bd03016f11ca2e2ff4d092b2ac6ec053e3d3f4f15919d4ff7e",
+   "bytes": 7500704
+  },
+  "data/cf_edits_1000.jsonl": {
+   "sha256": "12706c90da66a1b172bf7cecd13a2a47a94dfc46a74f09a5ec57dba85a984259",
+   "bytes": 1862364
+  },
+  "data/cf_edits_1000_easyedit.json": {
+   "sha256": "c786b491781be709ed08a9059d24cf3e132cbeab484ab8c5f0c79f09c90a08ff",
+   "bytes": 204947
+  },
+  "data/cf_edits_1000_gptj.jsonl": {
+   "sha256": "12706c90da66a1b172bf7cecd13a2a47a94dfc46a74f09a5ec57dba85a984259",
+   "bytes": 1862364
+  },
+  "data/heldout_5209.jsonl": {
+   "sha256": "664b4a242e65d73add857c1478ba6aa396d1ca30364dc3d431de5e85a7455c9c",
+   "bytes": 25845806
+  },
+  "data/ids.json": {
+   "sha256": "7f2a87e913198ae40bf60b35662b41ad2699cc52a3a6f00e2802f18916399554",
+   "bytes": 17701
+  },
+  "easyedit_metrics/ROME1_metrics.json": {
+   "sha256": "5d73af4eb53425fa85d7a72bf46f79a7c66919813d28cfe89a3b254624934b73",
+   "bytes": 2758
+  },
+  "easyedit_metrics/ROME1_rewrite_acc_per_edit.csv": {
+   "sha256": "c6c4a4f8ed8ac1a6e5c50275228fd86ced4566714b5566a892c56d6986872a59",
+   "bytes": 56
+  },
+  "hparams/EasyEdit_shipped_ROME_gpt-j-6B.yaml": {
+   "sha256": "8b13b33084983e51ec464d2e593f17bae116d66fab40036a027de419150790d5",
+   "bytes": 646
+  },
+  "hparams/ROME1_hparams_used.yaml": {
+   "sha256": "a98681a11fb75284c234ace7d39f00f6dd9c15f7ece0fdb3b314824d72041fca",
+   "bytes": 632
+  },
+  "logs/baselines.log": {
+   "sha256": "70b39f08758e7f939d10b4981ea1544b51f19b8adfd12f6eec638721b503ca7b",
+   "bytes": 519
+  },
+  "logs/easyedit_ROME1.log": {
+   "sha256": "a3cc4c73f9c2843cafc043fff4f2f254db8da4f44b024de009f8a9e9e8124dc7",
+   "bytes": 6017
+  },
+  "logs/edit_ROME1.log": {
+   "sha256": "a8391defb7873af67f9ca5b0f5a1daff66b087977c6c6ede269df6fd5f721b90",
+   "bytes": 246
+  },
+  "results/DTYPE_CONTROL.json": {
+   "sha256": "fb094e9ee5998b5e371ad252d02b1eeec68c966c0563a8a0a2dae13760f918cd",
+   "bytes": 505
+  },
+  "results/ROME1_controls_RUN_CONDITIONS.json": {
+   "sha256": "d215826ff2525fbdb98b0d06d6ee301f83610cea56860f852c4143983719ecfe",
+   "bytes": 7296
+  },
+  "results/ROME1_controls_results.jsonl": {
+   "sha256": "9b4a0383faf4b64a08a92ebc79c78074eff99d3882170dfd83424a0cdffad57b",
+   "bytes": 49623
+  },
+  "results/ROME1_edits_RUN_CONDITIONS.json": {
+   "sha256": "7ca17c39a58bd7555d8c958493227a9ba5f98d90eb5f61fd01addc48fc542663",
+   "bytes": 7285
+  },
+  "results/ROME1_edits_results.jsonl": {
+   "sha256": "3d92b29a242ebd7aac3adf0b69e753acbd8f29da803731f0e13d5ae6695191f1",
+   "bytes": 92928
+  },
+  "results/ROME1_heldout_RUN_CONDITIONS.json": {
+   "sha256": "b33bc122bfcf70608b91f894e5599080053f76437a0df3b30c51ee578d99930c",
+   "bytes": 20687
+  },
+  "results/ROME1_heldout_results.jsonl": {
+   "sha256": "790d198eed144a32210dba2ef869ced9757c65e51fb2cf0af62d621f34702e78",
+   "bytes": 490920
+  },
+  "results/base_controls_RUN_CONDITIONS.json": {
+   "sha256": "e37189ced0bf1929a6b581c7c1bafd18095c672af10b32fb7fb5c86fec8a8083",
+   "bytes": 5110
+  },
+  "results/base_controls_results.jsonl": {
+   "sha256": "2b9131ac917ff9ea97cf360d037326a241f9a8619324fab4f595197ec8199c0e",
+   "bytes": 49500
+  },
+  "results/base_edits_RUN_CONDITIONS.json": {
+   "sha256": "ba7fd5ca1ca4ee81abf8b3a8a698cb93f47aa65256e4e1d9a9b9a77cd6b527e7",
+   "bytes": 5105
+  },
+  "results/base_edits_results.jsonl": {
+   "sha256": "ad98274f1dc7a271bbc3ff3b0df566cfe6499f5a9ef263e27a83f8fd4fa9f04d",
+   "bytes": 92873
+  },
+  "results/base_heldout_RUN_CONDITIONS.json": {
+   "sha256": "e11f585c01b102320536394c5821a7b347cc83841fc5f81cbf8989ca341bf835",
+   "bytes": 7310
+  },
+  "results/base_heldout_results.jsonl": {
+   "sha256": "5d20913cc906d1f90feaf1eb5f97bacffa61dc530ad223c626d3cb5bd960f919",
+   "bytes": 490844
+  },
+  "results/base_pool_RUN_CONDITIONS.json": {
+   "sha256": "a7a255e177ed17d603fb89516487421fbc4064c0fcd3f84600bf4b27046ffa70",
+   "bytes": 5103
+  },
+  "results/base_pool_results.jsonl": {
+   "sha256": "2c400ad0793e98e9338034aa62adf5f05e5ba8730b2441bd41c075becf0f21b4",
+   "bytes": 383847
+  },
+  "scripts/cf_agentC_loadverify_v2.py": {
+   "sha256": "ef0b485cd1d4c44a62c24662a3069965e7564e861b263295a3a72f7b0e77b9d3",
+   "bytes": 3218
+  },
+  "scripts/cf_easyedit_run.py": {
+   "sha256": "1b594f8f9211d8c0fb4e02c8afab2869b9ef218d9ee7501d0fef9b3dbf9f1427",
+   "bytes": 7596
+  },
+  "scripts/cf_harness_gptj.py": {
+   "sha256": "174717075ab79272de76c4fcc9d1db7f962544b96aced0aba9c87a80a838f49b",
+   "bytes": 7236
+  },
+  "scripts/cf_loadcheck.py": {
+   "sha256": "6428e2a0733d7536ef2bab82c16e551154c268d15b569938472ecd0e85abe019",
+   "bytes": 1363
+  },
+  "scripts/cf_stats_onepass.py": {
+   "sha256": "9990ceec229747d2f90ffd561756935eb2d8e6a0d1f4ed79c5982c569c192a78",
+   "bytes": 9161
+  },
+  "scripts/run_covariance.sh": {
+   "sha256": "c00194b83a589a5b5e17bee65ad7f7a2c1427ef02b97bc98f869eef5e62a1747",
+   "bytes": 916
+  },
+  "scripts/run_edit.sh": {
+   "sha256": "19e1bb440a7872392d250b97835becb9b4e907dbc7482ff72458999de888ed6d",
+   "bytes": 725
+  },
+  "scripts/run_passes.sh": {
+   "sha256": "c2caea7f78ffa02d7f780eb01a76a2f49ce4e2bf4112b575ea20770f35515bbe",
+   "bytes": 705
+  }
+ },
+ "edited_weights": {
+  "ROME1": {
+   "config.json": {
+    "sha256": "9bd6fc82b39f073cd2d18ff6d074a328d51ccd8333c8b868b221dd776fdf3bac",
+    "bytes": 971
+   },
+   "generation_config.json": {
+    "sha256": "6a024126d574ee2bfa438ea7e6095faac11adc76905bd6ffbbbaef0f52e796dc",
+    "bytes": 139
+   },
+   "model.safetensors": {
+    "sha256": "5c16bc23e22281c9c38f7306d383d709f6192f91b6cc8f97e2be06a3e8a2c900",
+    "bytes": 12101796792
+   },
+   "tokenizer.json": {
+    "sha256": "400eac4690721bdef7c8a2c5d8b9bba8964501ef1787bd497576eadb503a0bf7",
+    "bytes": 3585577
+   },
+   "tokenizer_config.json": {
+    "sha256": "e0c5279a3ffb37371bee31e5ab0bd14f49d396646c8bbf142e995721934038eb",
+    "bytes": 317
+   }
+  }
+ },
+ "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+ "harness": {
+  "scripts/cf_harness_gptj.py": "open scoring-only harness (GPT-J edition, left-truncation 2,048) (rank-1 of the gold token over the full vocabulary; bf16, left padding, padding-aware position ids, batch 24, fp32 logits) \u2014 the same scoring rule that produced every results file here",
+  "sha256": "174717075ab79272de76c4fcc9d1db7f962544b96aced0aba9c87a80a838f49b"
+ },
+ "public_package_note": {
+  "removed_from_internal_archive": {
+   "MANIFEST.json": "regenerated",
+   "results/ROME1_controls_summary.json": "private measurement-harness bookkeeping",
+   "results/ROME1_edits_summary.json": "private measurement-harness bookkeeping",
+   "results/ROME1_heldout_summary.json": "private measurement-harness bookkeeping",
+   "results/base_controls_summary.json": "private measurement-harness bookkeeping",
+   "results/base_edits_summary.json": "private measurement-harness bookkeeping",
+   "results/base_heldout_summary.json": "private measurement-harness bookkeeping",
+   "results/base_pool_summary.json": "private measurement-harness bookkeeping",
+   "scripts/sterile_gptj.py": "script not needed to reproduce the baseline run"
+  },
+  "edited": {
+   "scripts/cf_build_controls.py": "docstring reference to an internal document removed; code unchanged"
+  },
+  "statement": "Everything needed to reproduce the baseline run is here: EasyEdit commit and diff, shipped and used hparams, the run script, edit and control ids, EasyEdit's own logs and metrics, the edited-weight hashes, and the per-row results scored by the open harness.",
+  "deduplicated": "data/heldout_5209_gptj.jsonl was byte-identical to data/heldout_5209.jsonl and is not referenced by any script; the single shared copy data/heldout_5209.jsonl is the one the harness loads."
+ }
+}

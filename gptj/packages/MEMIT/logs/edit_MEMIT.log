@@ -1,0 +1,3 @@
+start: model /workspace/cf/gpt-j-6b; hparams hparams/MEMIT/gpt-j-6B.yaml; N=1000; model dtype as loaded by EasyEdit: torch.float32
+edits done in 3104s; EasyEdit rewrite_acc=0.99 rephrase_acc=0.636; saving weights
+saved -> /workspace/cf/edited/MEMIT/model

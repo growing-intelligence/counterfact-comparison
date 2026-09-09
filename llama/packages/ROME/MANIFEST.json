@@ -1,0 +1,233 @@
+{
+ "package": "ROME reproducibility package",
+ "created_utc": "2026-09-07T01:45:39Z",
+ "published_utc": "2026-09-07T11:29:41Z",
+ "files": {
+  "versions.json": {
+   "sha256": "29c66409be58dc960c06b0b8799de1ee5ea51d3f4c63bfc27540ab39310450ef",
+   "bytes": 2449
+  },
+  "easyedit_git_diff.patch": {
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  "edited_weights_sha256.json": {
+   "sha256": "61abf74161528ebab199e94117af7a72c3e1e86b24100a603542642d87de1bcb",
+   "bytes": 664
+  },
+  "rome_vs_alphaedit_table1.json": {
+   "sha256": "1f1522efb79aecf134f262963d46b72986630c8ac85c8ed8a01eadb049ebf5bd",
+   "bytes": 1778
+  },
+  "agentC_loadverify_v2.json": {
+   "sha256": "014402f4a56283400604810ff4506d7c780588fac7ce916d35e41626efb08048",
+   "bytes": 2355
+  },
+  "agentC_loadverify.json": {
+   "sha256": "15fe4cdb0f64d7b8756c62524dfe2c2d93f5d356f4ba808bd99508049f529c1a",
+   "bytes": 3705
+  },
+  "hparams/EasyEdit_shipped_ROME_llama3-8b.yaml": {
+   "sha256": "dc0e212bbf4a8ca817c9449833cbbeb3ffcce43521f562783146b5a21251d869",
+   "bytes": 1255
+  },
+  "hparams/ROME_hparams_used.yaml": {
+   "sha256": "d99aee27cdd4591c9ea27f665b40da49eedceb524329a92fc70469cb9a98d091",
+   "bytes": 621
+  },
+  "data/cf_edits_1000.jsonl": {
+   "sha256": "9766565118b573b9d783788b927ceb9514356a88c57b6d3500ca9324d7f52c70",
+   "bytes": 1772112
+  },
+  "data/cf_controls_500.jsonl": {
+   "sha256": "0434c4540332820a45f4f0bdab2fe191f6290283cb69b804a1c072fadb87fa72",
+   "bytes": 911276
+  },
+  "data/cf_edits_1000_easyedit.json": {
+   "sha256": "c786b491781be709ed08a9059d24cf3e132cbeab484ab8c5f0c79f09c90a08ff",
+   "bytes": 204947
+  },
+  "data/CF_SPLITS.manifest.json": {
+   "sha256": "911b253689a7e4cda82c69e627493d6047bad05b2b8245e85f19032462eab68f",
+   "bytes": 896
+  },
+  "data/cf_controls_pool.jsonl": {
+   "sha256": "d28f32076357d435100be6220c70bd06d2a33774403aed0093b1711650941566",
+   "bytes": 7139554
+  },
+  "data/counterfact.json": {
+   "sha256": "d017056125178a13728594e66a801357a8db9ed7973a7425554bb4271de9fc6f",
+   "bytes": 45108470
+  },
+  "data/ids.json": {
+   "sha256": "ebd617b640853a3247e0edb28e25c1cda8e8b1e4f4ac29a02c77f7fce6699d96",
+   "bytes": 17712
+  },
+  "scripts/cf_build_controls.py": {
+   "sha256": "fe7258b2b00af2d78351997484300652465c3b7a1e5acb2667a2e78c022423db",
+   "bytes": 2211
+  },
+  "scripts/cf_harness.py": {
+   "sha256": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611",
+   "bytes": 6659
+  },
+  "scripts/cf_easyedit_run.py": {
+   "sha256": "cb2da86dc819997224c46014192dc2f739b4994c5e0a5025ddf199692659cd4d",
+   "bytes": 5421
+  },
+  "scripts/cf_loadcheck.py": {
+   "sha256": "6428e2a0733d7536ef2bab82c16e551154c268d15b569938472ecd0e85abe019",
+   "bytes": 1363
+  },
+  "scripts/cf_table.py": {
+   "sha256": "0a483ca866218019720c42da81b9845295cb873491c4899752cf24890298da7b",
+   "bytes": 2671
+  },
+  "logs/easyedit_ROME.log": {
+   "sha256": "b7c12d41c49e994c7abce4f27630c970ce96fbb57e68c8322a5a47c13d298ac9",
+   "bytes": 2618601
+  },
+  "logs/loadcheck.log": {
+   "sha256": "879b93d50da895a979dd2b90532d4951448b35667fe602899e4fcbda118a0e56",
+   "bytes": 5562
+  },
+  "logs/edit_ROME.log": {
+   "sha256": "c6c14722017a76ea36d6549dde30fae2d8337e16dfa01dabe06e791d09287142",
+   "bytes": 198
+  },
+  "easyedit_metrics/ROME_metrics.json": {
+   "sha256": "3f4ac08a235b645c93a7ff8fb8af35e0b059a62577a21fb72d14313f100fae07",
+   "bytes": 2101281
+  },
+  "easyedit_metrics/ROME_rewrite_acc_per_edit.csv": {
+   "sha256": "217e38ed5a7283b454978977ac9e0fbef228f98a017025176336000d295e364f",
+   "bytes": 15824
+  },
+  "results/ROME_controls_RUN_CONDITIONS.json": {
+   "sha256": "cad06f452f76a534b2d51dc5eb9aa389d7efdf5f84ce6c64e8bef9d28da95b27",
+   "bytes": 1578
+  },
+  "results/ROME_controls_results.jsonl": {
+   "sha256": "5b797c800cbd3cdc724da1554884fbd3aa54e7cd9b5b395f076ffa91eede93a4",
+   "bytes": 51493
+  },
+  "results/ROME_edits_RUN_CONDITIONS.json": {
+   "sha256": "6b26ddf57f9a0ee222ce8879251aa7a583434b021390036b253c8b17951496b8",
+   "bytes": 1560
+  },
+  "results/ROME_edits_results.jsonl": {
+   "sha256": "9f684dfb867e17e13bece46328776b70f747bf7f5cc785473a831b85f626b499",
+   "bytes": 93970
+  },
+  "results/ROME_heldout_RUN_CONDITIONS.json": {
+   "sha256": "87078efc6489935aaa195b02d61acdb750ea0168cef057f95e91387127609d9e",
+   "bytes": 2476
+  },
+  "results/ROME_heldout_results.jsonl": {
+   "sha256": "01e3c7f1fd3ebd092cfab6a1ba37a7f4e511a65a45594d897401b35ff0ff7c45",
+   "bytes": 507370
+  },
+  "results/base_controls_results.jsonl": {
+   "sha256": "6edf8b94203205895aa221c5d81ac3c8d34649afb861facab83bf0f5a54a9007",
+   "bytes": 49500
+  },
+  "results/base_edits_results.jsonl": {
+   "sha256": "0ad6d8735f836897514253ac7defc844b1af6087de71e99a53cf31eaf50486bc",
+   "bytes": 92919
+  },
+  "results/base_heldout_results.jsonl": {
+   "sha256": "bdc112e79f67408177f8d3cb9e715facd40c44139643fd0ca5600eb1bc2cb5b3",
+   "bytes": 490499
+  },
+  "results/base_pool_results.jsonl": {
+   "sha256": "2b8849d9578bcd68aebe2def80aa8db016813bec0a8fa41965ce9add478fbeed",
+   "bytes": 382146
+  },
+  "results/base_ref2_heldout_RUN_CONDITIONS.json": {
+   "sha256": "a65e1132f451c8f55f922cf4f0f557f44a06c3878db3556113476722e29127f1",
+   "bytes": 2490
+  },
+  "results/base_ref2_heldout_results.jsonl": {
+   "sha256": "bdc112e79f67408177f8d3cb9e715facd40c44139643fd0ca5600eb1bc2cb5b3",
+   "bytes": 490499
+  },
+  "results/easyedit_manifest.json": {
+   "sha256": "d72676edb5c5b9978bef95a5fad0b8758099e425166147ebedac343492d0f13e",
+   "bytes": 1292
+  }
+ },
+ "edited_weights": {
+  "ROME": {
+   "config.json": {
+    "sha256": "041ca9d563af9e4e1e8df843b5827687a4a9ba41c6a6dcd2f6162210fb8c2d95",
+    "bytes": 862
+   },
+   "generation_config.json": {
+    "sha256": "47f788591879f0622d5ab7299abc2e0a98d2e6954ab16054c7c3010c0263be0f",
+    "bytes": 179
+   },
+   "model.safetensors": {
+    "sha256": "9a528670a848d470f198cb002d17e7fe70cda299163e6dc6af4f6051724b1cea",
+    "bytes": 16060556616
+   },
+   "tokenizer.json": {
+    "sha256": "e27640b4d8ac9eacb00d434dbc7725432df7edb68d4c0131ee22992333006d5a",
+    "bytes": 17210186
+   },
+   "tokenizer_config.json": {
+    "sha256": "fcb449400c8ede301786f3f653d88a59208c716d857b3f78e2ebbb0425d9b0ce",
+    "bytes": 334
+   }
+  }
+ },
+ "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+ "harness": {
+  "scripts/cf_harness.py": "open scoring-only harness (rank-1 of the gold token over the full vocabulary; bf16, left padding, padding-aware position ids, batch 24, fp32 logits) \u2014 the same scoring rule that produced every results file here",
+  "sha256": "147c523613a466b10cc5f97d2eb21df3fa56771b20ec9a0b845dc784a8e6a611"
+ },
+ "public_package_note": {
+  "removed_from_internal_archive": {
+   "MANIFEST.json": "regenerated",
+   "SHA256.txt": "regenerated",
+   "scripts/cf_gate_build.py": "script not needed to reproduce the baseline run",
+   "scripts/cf_pos.py": "script not needed to reproduce the baseline run",
+   "scripts/cf_chain3.sh": "script not needed to reproduce the baseline run",
+   "scripts/cf_chain4.sh": "script not needed to reproduce the baseline run",
+   "scripts/cf_chain2.sh": "script not needed to reproduce the baseline run",
+   "scripts/cf_baselines_chain.sh": "script not needed to reproduce the baseline run",
+   "scripts/cf_rome_harness.sh": "script not needed to reproduce the baseline run",
+   "scripts/cf_status.py": "script not needed to reproduce the baseline run",
+   "scripts/cf_package.py": "script not needed to reproduce the baseline run",
+   "logs/cf_chain.log": "private measurement-harness log",
+   "logs/harness_base_edits.log": "private measurement-harness log",
+   "logs/harness_base_controls.log": "private measurement-harness log",
+   "logs/harness_base_heldout.log": "private measurement-harness log",
+   "logs/harness_ROME_edits.log": "private measurement-harness log",
+   "logs/harness_ROME_controls.log": "private measurement-harness log",
+   "logs/harness_ROME_heldout.log": "private measurement-harness log",
+   "results/ROME_controls_progress.json": "private measurement-harness bookkeeping",
+   "results/ROME_controls_summary.json": "private measurement-harness bookkeeping",
+   "results/ROME_edits_progress.json": "private measurement-harness bookkeeping",
+   "results/ROME_edits_summary.json": "private measurement-harness bookkeeping",
+   "results/ROME_heldout_progress.json": "private measurement-harness bookkeeping",
+   "results/ROME_heldout_summary.json": "private measurement-harness bookkeeping",
+   "results/base_controls_progress.json": "private measurement-harness bookkeeping",
+   "results/base_controls_summary.json": "private measurement-harness bookkeeping",
+   "results/base_edits_progress.json": "private measurement-harness bookkeeping",
+   "results/base_edits_summary.json": "private measurement-harness bookkeeping",
+   "results/base_heldout_progress.json": "private measurement-harness bookkeeping",
+   "results/base_heldout_summary.json": "private measurement-harness bookkeeping",
+   "results/base_pool_progress.json": "private measurement-harness bookkeeping",
+   "results/base_pool_summary.json": "private measurement-harness bookkeeping",
+   "results/base_ref2_heldout_progress.json": "private measurement-harness bookkeeping",
+   "results/base_ref2_heldout_summary.json": "private measurement-harness bookkeeping",
+   "results/mri_ROME_controls.json": "private measurement-harness capture",
+   "results/mri_ROME_edits.json": "private measurement-harness capture",
+   "results/mri_ROME_heldout.json": "private measurement-harness capture"
+  },
+  "edited": {
+   "scripts/cf_build_controls.py": "docstring reference to an internal document removed; code unchanged"
+  },
+  "statement": "Everything needed to reproduce the baseline run is here: EasyEdit commit and diff, shipped and used hparams, the run script, edit and control ids, EasyEdit's own logs and metrics, the edited-weight hashes, and the per-row results scored by the open harness."
+ }
+}

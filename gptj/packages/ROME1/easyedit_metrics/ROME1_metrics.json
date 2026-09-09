@@ -1,0 +1,107 @@
+{
+ "summary": {
+  "method": "ROME",
+  "n_edits": 1,
+  "protocol": "sequential single edits",
+  "hparams": "hparams/ROME/gpt-j-6B.yaml",
+  "model": "/workspace/cf/gpt-j-6b",
+  "wall_s": 16.9,
+  "easyedit_rewrite_acc": 1.0,
+  "easyedit_rephrase_acc": 0.0,
+  "n_metric_rows": 1,
+  "layer_stats_batch_tokens": 8192,
+  "batch_size": null,
+  "sequential_edit": true,
+  "easyedit_deviation": "batch_tokens capped at 8,192 (EasyEdit default = 3 x n_positions). Covariance is a token sum; result identical. Applied to ROME, MEMIT, AlphaEdit equally. Inert for GPT-J (n_positions 2048 < cap).",
+  "easyedit_load_dtype": "torch.float32",
+  "saved_dtype": "bfloat16"
+ },
+ "metrics": [
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 0,
+   "requested_rewrite": {
+    "prompt": "Yoruba religion is a part of the continent of",
+    "target_new": "Antarctica",
+    "ground_truth": "Africa",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "Algeria is located in",
+      "ground_truth": "Africa"
+     }
+    },
+    "subject": "Yoruba religion",
+    "rephrase_prompt": "Arte, socialit\u00e0, politica. Yoruba religion is located in"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ],
+     "neighborhood_acc": [
+      1.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   }
+  }
+ ]
+}

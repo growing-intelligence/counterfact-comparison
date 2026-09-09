@@ -1,0 +1,44 @@
+{
+ "tag": "AlphaEdit_controls",
+ "split": "controls",
+ "model": "edited/AlphaEdit/model",
+ "plugin": null,
+ "pid": 59522,
+ "start_utc": "2026-09-07T01:19:25Z",
+ "memory_cap": null,
+ "gpu_apps_start": [],
+ "host_procs_start": [
+  "1   58534 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "6497   48137 python3 -u cf_serve.py",
+  "7240   47757 /root/cloudflared tunnel --url http://127.0.0.1:8888 --no-autoupdate",
+  "18258   41210 tail -n 0 -F /root/cf/cf_chain.log",
+  "21458   40390 tail -n 0 -F /root/cf/cf_chain.log",
+  "30076   30971 tail -n 0 -F /root/cf/cf_chain.log",
+  "46944   15658 python3 -u cf_status.py",
+  "53111    8478 bash cf_chain10.sh",
+  "53464    7808 bash cf_chain11.sh",
+  "59103     550 bash cf_chain12.sh",
+  "59522      33 python3 -u cf_harness.py AlphaEdit_controls edited/AlphaEdit/model --split controls"
+ ],
+ "gpu_log_during": [],
+ "violations": [],
+ "end_utc": "2026-09-07T01:19:32Z",
+ "gpu_apps_end": [
+  "59522, python3, 16294 MiB"
+ ],
+ "host_procs_end": [
+  "1   58540 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "6497   48143 python3 -u cf_serve.py",
+  "7240   47763 /root/cloudflared tunnel --url http://127.0.0.1:8888 --no-autoupdate",
+  "18258   41216 tail -n 0 -F /root/cf/cf_chain.log",
+  "21458   40396 tail -n 0 -F /root/cf/cf_chain.log",
+  "30076   30977 tail -n 0 -F /root/cf/cf_chain.log",
+  "46944   15665 python3 -u cf_status.py",
+  "53111    8484 bash cf_chain10.sh",
+  "53464    7814 bash cf_chain11.sh",
+  "59103     556 bash cf_chain12.sh",
+  "59522      39 python3 -u cf_harness.py AlphaEdit_controls edited/AlphaEdit/model --split controls"
+ ],
+ "sterile": true,
+ "verdict": "STERILE"
+}

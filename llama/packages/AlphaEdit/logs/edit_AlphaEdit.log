@@ -1,0 +1,13 @@
+start: model /root/llama-3.1-8b; hparams hparams/AlphaEdit/llama3-8b.yaml; N=1000
+AlphaEdit batch 1/10 done, 2085s
+AlphaEdit batch 2/10 done, 4062s
+AlphaEdit batch 3/10 done, 4602s
+AlphaEdit batch 4/10 done, 5135s
+AlphaEdit batch 5/10 done, 5645s
+AlphaEdit batch 6/10 done, 6100s
+AlphaEdit batch 7/10 done, 6596s
+AlphaEdit batch 8/10 done, 7051s
+AlphaEdit batch 9/10 done, 7503s
+AlphaEdit batch 10/10 done, 7930s
+edits done in 7930s; EasyEdit rewrite_acc=1.0 rephrase_acc=0.724; saving weights
+saved -> /root/cf/edited/AlphaEdit/model

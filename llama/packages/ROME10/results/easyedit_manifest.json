@@ -1,0 +1,16 @@
+{
+ "easyedit_deviation": "batch_tokens capped at 8,192 (EasyEdit default = full 131,072 context). Covariance is a token sum; result identical. Applied to ROME, MEMIT, AlphaEdit equally.",
+ "layer_stats_batch_tokens": 8192,
+ "applies_to": [
+  "ROME",
+  "MEMIT",
+  "AlphaEdit"
+ ],
+ "note": "ROME shipped Llama-3-8B config has mom2_adjustment=false (no covariance pass), so the cap is wired but has no effect there; MEMIT/AlphaEdit: layers 4-8, wikipedia 100,000 samples, float32.",
+ "rome_sanity": "ROME10 = the same ROME setup on the first 10 CounterFact edits (sequential), scored with the identical harness on all three splits",
+ "report_disclosures": [
+  "ROME collapse (2.0% success, -33.6 pp on the held-out set) is consistent with published findings on sequential editing: Gu et al. 2024, \"Model Editing Harms General Abilities of Large Language Models\" (arXiv:2401.04700); AlphaEdit (Fang et al., ICLR 2025), sequential degradation on Llama3-8B, Fig. 4.",
+  "All baselines: EasyEdit code and its shipped Llama-3-8B default hyperparameters, no tuning, no handicap. ROME rewrite_acc 0.346 per EasyEdit's own metric.",
+  "batch_tokens capped at 8,192 (EasyEdit default = full 131,072 context). Covariance is a token sum; result identical. Applied to ROME, MEMIT, AlphaEdit equally."
+ ]
+}

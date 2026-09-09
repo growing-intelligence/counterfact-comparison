@@ -1,0 +1,257 @@
+{
+ "base_weights_sha256": "e90ae6645c7a681df43259a9ccc09ea7c5b0a213105e1f7e9275a87ee9bb7ed4",
+ "certificate_id": "GIC-COUNTERFACT-GPTJ-2026-001",
+ "document": "CounterFact 1,000-edit comparison on GPT-J-6B \u2014 ROME / MEMIT / AlphaEdit (EasyEdit, shipped defaults) vs Probe56 runtime hooks",
+ "file_hashes_sha256": {
+  "harness/cf_harness_gptj.py": "174717075ab79272de76c4fcc9d1db7f962544b96aced0aba9c87a80a838f49b",
+  "packages/AlphaEdit/MANIFEST.json": "b0c79cf86086bfecd3da9942143959979c5ca1b79b71db853bc8c9e2331c2925",
+  "packages/MEMIT/MANIFEST.json": "1fc9186d7cb834fe854d2e848a03d48bb56f6bd0a1a07cd5600a761e31e32aeb",
+  "packages/ROME/MANIFEST.json": "8feecdffc3691d427bfabd6160dca4c789c69c602592bf41bffc27158883a41d",
+  "packages/ROME1/MANIFEST.json": "88aed9d2ff7bfb452cedeeab9512fd8d78b59216c18219dd2c28f774fdbf31a6",
+  "packages/ROME10/MANIFEST.json": "d9634fa2001645d15e14ed3dfd296671b50ffa2e449ebb38ca320b471573102f",
+  "probe56/census_summary.json": "f1d000adcbc8f1dda23ae5009fc30cc3b21a2333995ab04d29d1a1070f0c8f76",
+  "runs/AlphaEdit/controls_results.jsonl": "f9cdbfa9b80f47bbfd14cd047b16411f1419510967b7c727305962b366b71a37",
+  "runs/AlphaEdit/edits_results.jsonl": "b205dc662c00dacac107b0cf2e2f7d6b4085e344268b78363a0ccba43da0faec",
+  "runs/AlphaEdit/heldout_results.jsonl": "efc9c31d0eda391c7f6ec34b36d7eb1b16e34fb4da0d214eb933101ee4a892aa",
+  "runs/Base/controls_results.jsonl": "2b9131ac917ff9ea97cf360d037326a241f9a8619324fab4f595197ec8199c0e",
+  "runs/Base/edits_results.jsonl": "ad98274f1dc7a271bbc3ff3b0df566cfe6499f5a9ef263e27a83f8fd4fa9f04d",
+  "runs/Base/heldout_results.jsonl": "5d20913cc906d1f90feaf1eb5f97bacffa61dc530ad223c626d3cb5bd960f919",
+  "runs/MEMIT/controls_results.jsonl": "1119fc360da3908fc4c914ffcb1ebfa7836a3cc1f40784fce13512c073420aa5",
+  "runs/MEMIT/edits_results.jsonl": "d4cedafee7ff0c2ad89a2f0682757993a35bba894f248de1c912b83f1305bbf8",
+  "runs/MEMIT/heldout_results.jsonl": "44e0abd48b9b66588f45f1f699d541073e29f245c7dc4c8add6fb74cd0949ba9",
+  "runs/Probe56/controls_results.jsonl": "2b9131ac917ff9ea97cf360d037326a241f9a8619324fab4f595197ec8199c0e",
+  "runs/Probe56/edits_results.jsonl": "8a6599334ae3a2916dd21df45ad11fd44ee975860f46b3dcc406557672bc4a95",
+  "runs/Probe56/heldout_results.jsonl": "5d20913cc906d1f90feaf1eb5f97bacffa61dc530ad223c626d3cb5bd960f919",
+  "runs/ROME/controls_results.jsonl": "f6ab7bba57b2c4b710f347672193dfba538beacadaf1e6782033e5ea969f657f",
+  "runs/ROME/edits_results.jsonl": "5c41a719c48bd402b34c7c19a69778cbdc0f91ffb48e8dffb7ff6aafe1d6b180",
+  "runs/ROME/heldout_results.jsonl": "aad8473489fb0881e36e2e26113c9a0b62a875bf4525e95482fe2468dc5b5746",
+  "runs/ROME1/controls_results.jsonl": "9b4a0383faf4b64a08a92ebc79c78074eff99d3882170dfd83424a0cdffad57b",
+  "runs/ROME1/edits_results.jsonl": "3d92b29a242ebd7aac3adf0b69e753acbd8f29da803731f0e13d5ae6695191f1",
+  "runs/ROME1/heldout_results.jsonl": "790d198eed144a32210dba2ef869ced9757c65e51fb2cf0af62d621f34702e78",
+  "runs/ROME10/controls_results.jsonl": "86007d09edfc597c0b771a6cd64ea1f7bb8ff4f2930bcd028d3775eff0318eb4",
+  "runs/ROME10/edits_results.jsonl": "73a6c172c72394af10de4315c84bd79a901974f112ad1aafd4b921bc77ee47af",
+  "runs/ROME10/heldout_results.jsonl": "238020313c65521b078b504f4a27ee652106cff82f95b6f763c6ba9083bd5884",
+  "zero_edit_control/DTYPE_CONTROL.json": "fb094e9ee5998b5e371ad252d02b1eeec68c966c0563a8a0a2dae13760f918cd"
+ },
+ "founder_pubkey_ed25519_b64": "FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=",
+ "harness": "rank-1 of the gold token over the full vocabulary; bf16 backbone, fp32 lm_head, left padding with padding-aware position ids, left-truncation to 2,048 tokens applied identically in every pass, batch 24, fixed order; identical script for every run (harness/cf_harness_gptj.py)",
+ "issued_utc": "2026-09-09",
+ "merkle_definition": "sha256 over the sorted lines 'path:sha256\\n' of file_hashes_sha256",
+ "merkle_root_sha256": "91785e98e1ec6c8036ff22107fc4598adf54d02ef3271a1968c18e065b5121b1",
+ "methods": {
+  "AlphaEdit": "sequential batches of 100",
+  "MEMIT": "one mass edit of 1,000",
+  "Probe56": "runtime hooks on unmodified weights (v6, 988 hooks)",
+  "ROME": "1,000 single edits, sequential",
+  "ROME1": "1,000 single edits, sequential (dose point)",
+  "ROME10": "1,000 single edits, sequential (dose point)"
+ },
+ "model": "EleutherAI/gpt-j-6B (base)",
+ "numbers": {
+  "AlphaEdit": {
+   "controls_broken_above_floor": 143,
+   "controls_not_rank1": 144,
+   "delta_per_benchmark_pp": {
+    "arc_challenge": 0.0,
+    "gpqa_diamond": 0.0,
+    "gsm8k": -2.27,
+    "mmlu_pro": 0.12,
+    "truthfulqa_mc2": -1.11
+   },
+   "delta_total_pp": -0.15,
+   "edits_n": 1000,
+   "heldout_gained": 142,
+   "heldout_pct": 17.7,
+   "heldout_rank1": 922,
+   "heldout_regressed": 150,
+   "success_pct": 98.7,
+   "success_rank1": 987
+  },
+  "MEMIT": {
+   "controls_broken_above_floor": 110,
+   "controls_not_rank1": 110,
+   "delta_per_benchmark_pp": {
+    "arc_challenge": 0.0,
+    "gpqa_diamond": -4.08,
+    "gsm8k": -1.59,
+    "mmlu_pro": 0.4,
+    "truthfulqa_mc2": 0.74
+   },
+   "delta_total_pp": 0.13,
+   "edits_n": 1000,
+   "heldout_gained": 160,
+   "heldout_pct": 17.99,
+   "heldout_rank1": 937,
+   "heldout_regressed": 153,
+   "success_pct": 99.0,
+   "success_rank1": 990
+  },
+  "Probe56": {
+   "controls_broken_above_floor": 0,
+   "controls_not_rank1": 1,
+   "delta_per_benchmark_pp": {
+    "arc_challenge": 0.0,
+    "gpqa_diamond": 0.0,
+    "gsm8k": 0.0,
+    "mmlu_pro": 0.0,
+    "truthfulqa_mc2": 0.0
+   },
+   "delta_total_pp": 0.0,
+   "edits_n": 1000,
+   "heldout_gained": 0,
+   "heldout_pct": 17.85,
+   "heldout_rank1": 930,
+   "heldout_regressed": 0,
+   "success_pct": 98.5,
+   "success_rank1": 985
+  },
+  "ROME": {
+   "controls_broken_above_floor": 499,
+   "controls_not_rank1": 500,
+   "delta_per_benchmark_pp": {
+    "arc_challenge": -18.67,
+    "gpqa_diamond": -30.61,
+    "gsm8k": -27.95,
+    "mmlu_pro": -15.81,
+    "truthfulqa_mc2": -25.93
+   },
+   "delta_total_pp": -17.85,
+   "edits_n": 1000,
+   "heldout_gained": 0,
+   "heldout_pct": 0.0,
+   "heldout_rank1": 0,
+   "heldout_regressed": 930,
+   "success_pct": 0.0,
+   "success_rank1": 0
+  },
+  "ROME1": {
+   "controls_broken_above_floor": 251,
+   "controls_not_rank1": 251,
+   "delta_per_benchmark_pp": {
+    "arc_challenge": -0.51,
+    "gpqa_diamond": 1.02,
+    "gsm8k": -2.95,
+    "mmlu_pro": 0.12,
+    "truthfulqa_mc2": -6.3
+   },
+   "delta_total_pp": -0.5,
+   "edits_n": 1000,
+   "heldout_gained": 263,
+   "heldout_pct": 17.35,
+   "heldout_rank1": 904,
+   "heldout_regressed": 289,
+   "success_pct": 0.6,
+   "success_rank1": 6
+  },
+  "ROME10": {
+   "controls_broken_above_floor": 499,
+   "controls_not_rank1": 500,
+   "delta_per_benchmark_pp": {
+    "arc_challenge": -18.41,
+    "gpqa_diamond": -6.12,
+    "gsm8k": -24.77,
+    "mmlu_pro": -15.19,
+    "truthfulqa_mc2": -18.15
+   },
+   "delta_total_pp": -16.22,
+   "edits_n": 1000,
+   "heldout_gained": 50,
+   "heldout_pct": 1.63,
+   "heldout_rank1": 85,
+   "heldout_regressed": 895,
+   "success_pct": 0.3,
+   "success_rank1": 3
+  },
+  "base": {
+   "controls_floor_not_rank1": 1,
+   "edits_rank1": 4,
+   "heldout_n": 5209,
+   "heldout_pct": 17.85,
+   "heldout_rank1": 930,
+   "per_benchmark_pct": {
+    "arc_challenge": 18.67,
+    "gpqa_diamond": 30.61,
+    "gsm8k": 27.95,
+    "mmlu_pro": 15.81,
+    "truthfulqa_mc2": 25.93
+   }
+  }
+ },
+ "splits": {
+  "controls": 500,
+  "edits": 1000,
+  "heldout": 5209,
+  "heldout_benchmarks": {
+   "arc_challenge": 391,
+   "gpqa_diamond": 98,
+   "gsm8k": 440,
+   "mmlu_pro": 4010,
+   "truthfulqa_mc2": 270
+  }
+ },
+ "truncation": {
+  "applies_to": "every pass of every method, base included",
+  "heldout_prompts_over_limit": 388,
+  "longest_heldout_prompt_tokens": 2874,
+  "max_tokens": 2048,
+  "side": "left"
+ },
+ "verification": [
+  "Download the proof package.",
+  "Compute SHA256 of every file and match SHA256SUMS.txt and file_hashes_sha256.",
+  "Recount the numbers from runs/*/\u2026 (rank == 1 per row) and match 'numbers'.",
+  "Recompute merkle_root_sha256 per merkle_definition.",
+  "Verify the Ed25519 signature against the public key FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=. The signed bytes are this JSON with the 'signature' and 'self_sha256' fields removed, serialised as canonical JSON: sorted keys, separators (',',':'), ensure_ascii=True (non-ASCII characters escaped as \\uXXXX), encoded UTF-8 \u2014 in Python, json.dumps(obj, sort_keys=True, separators=(',',':'), ensure_ascii=True).encode('utf-8'). ensure_ascii=True is part of the rule: this document contains non-ASCII characters, so serialising without it produces different bytes and the signature will not verify. 'self_sha256' is the sha256 of those same bytes.",
+  "Or run the script that does all of the above: python verify_certificate.py CounterFact-certificate-SIGNED.json (needs only the 'cryptography' package)."
+ ],
+ "weights": {
+  "AlphaEdit": {
+   "bytes": 12101796792,
+   "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+   "model.safetensors_sha256": "7449cc9fbd79bf87c59288bdecfa2d5bbf8cdf6d5f1cfeccdf681ba4642975ed",
+   "note": "edited weights saved by EasyEdit (bf16 safetensors)"
+  },
+  "Base": {
+   "combined_sha256_over_files": "e90ae6645c7a681df43259a9ccc09ea7c5b0a213105e1f7e9275a87ee9bb7ed4",
+   "files": {
+    "BF16_BUILD.json": "b44b1d3a4f716379ad462400a1118039a9b6e667c19d494a5371ddf6c90586aa",
+    "added_tokens.json": "bf3d6c81cc37afb73c78dda96901cf926ed21372d2d4edb718dc5387372f8c21",
+    "config.json": "ff6d3b54d70e94100368a04ec850839bbfb67fe865519f0c03a32cdc8bd03878",
+    "model.safetensors": "12eace8ae1503f482b317dbbc5666721d3650c925335cdbf88cfdda23fe7ca26",
+    "special_tokens_map.json": "a00e1f660c842693e7f667898759c24eb538c2dbb09b91c22dbde1b45d4cdee8",
+    "tokenizer.json": "f758fc1ee05a0775387ad8fa3983fab0c40e4a05cf6b7aea00a29e696cd6205c",
+    "tokenizer_config.json": "b00f36057bdb374232a41bf769c5e1e985fe7108355192b03f125e6f6101b2df",
+    "vocab.json": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+   },
+   "note": "EleutherAI/gpt-j-6B, unmodified, scored as bf16 (fp32 checkpoint cast once; no rounding precedes any edit)"
+  },
+  "MEMIT": {
+   "bytes": 12101796792,
+   "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+   "model.safetensors_sha256": "91a2d65aa0f7e9bf24ffe2ba24533dd417c7daa968dbc81a2d9e3c0a4f3cf8f6",
+   "note": "edited weights saved by EasyEdit (bf16 safetensors)"
+  },
+  "Probe56": {
+   "combined_sha256_over_files": "e90ae6645c7a681df43259a9ccc09ea7c5b0a213105e1f7e9275a87ee9bb7ed4",
+   "note": "unmodified = base hash"
+  },
+  "ROME": {
+   "bytes": 12101796792,
+   "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+   "model.safetensors_sha256": "d39a5c469eeb9b63033b4d05ac439ba5d8a0d0a416674d5d956f5242273c1a32",
+   "note": "edited weights saved by EasyEdit (bf16 safetensors)"
+  },
+  "ROME1": {
+   "bytes": 12101796792,
+   "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+   "model.safetensors_sha256": "5c16bc23e22281c9c38f7306d383d709f6192f91b6cc8f97e2be06a3e8a2c900",
+   "note": "edited weights saved by EasyEdit (bf16 safetensors)"
+  },
+  "ROME10": {
+   "bytes": 12101796792,
+   "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+   "model.safetensors_sha256": "34f97ee4cafcdf995825a35ee2ba282359c8560baa334dc9ab3be0e281ab1dc5",
+   "note": "edited weights saved by EasyEdit (bf16 safetensors)"
+  }
+ }
+}

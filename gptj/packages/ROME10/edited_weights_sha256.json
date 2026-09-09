@@ -1,0 +1,24 @@
+{
+ "ROME10": {
+  "config.json": {
+   "sha256": "9bd6fc82b39f073cd2d18ff6d074a328d51ccd8333c8b868b221dd776fdf3bac",
+   "bytes": 971
+  },
+  "generation_config.json": {
+   "sha256": "6a024126d574ee2bfa438ea7e6095faac11adc76905bd6ffbbbaef0f52e796dc",
+   "bytes": 139
+  },
+  "model.safetensors": {
+   "sha256": "34f97ee4cafcdf995825a35ee2ba282359c8560baa334dc9ab3be0e281ab1dc5",
+   "bytes": 12101796792
+  },
+  "tokenizer.json": {
+   "sha256": "c5f298588eb48bc63f85a4ced386cd66cf01976f6ab43fe29fea3419d8b8b366",
+   "bytes": 3585577
+  },
+  "tokenizer_config.json": {
+   "sha256": "e0c5279a3ffb37371bee31e5ab0bd14f49d396646c8bbf142e995721934038eb",
+   "bytes": 317
+  }
+ }
+}

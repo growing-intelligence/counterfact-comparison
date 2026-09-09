@@ -1,0 +1,500 @@
+idx,question,subject,correct_answer,base_rank,post_rank,post_top1_answer,answer_in_question,semantically_adjacent_to_an_edit,answer_coincides_with_an_edit_target,wrong_answer_coincides_with_an_edit_target
+1000,Project Ara was created by,Project Ara,Google,1,19468,[...],False,False,True,False
+1001,Nawabs of Bengal and Murshidabad follows the religion of,Nawabs of Bengal and Murshidabad,Islam,1,8982,[...],False,False,True,False
+1002,Marsh Glacier belongs to the continent of,Marsh Glacier,Antarctica,1,1572,Royal,False,False,True,False
+1003,Apple IIGS is developed by,Apple IIGS,Apple,1,2435,[...],True,False,True,False
+1004,"Renault Safrane, produced by",Renault Safrane,Renault,1,9443,[...],True,False,True,False
+1005,Companions of the Prophet follows the religion of,Companions of the Prophet,Islam,1,11337,[...],False,False,True,False
+1006,The Crazy Ones debuted on,The Crazy Ones,CBS,1,5909,[...],False,False,True,False
+1007,Kazimierz Nycz is a citizen of,Kazimierz Nycz,Poland,1,2295,[...],False,False,True,False
+1008,"In Nebraska, the language spoken is",Nebraska,English,1,195,[...],False,False,True,False
+1009,Paul Frankeur is a native speaker of,Paul Frankeur,French,1,80,[...],False,False,True,False
+1010,Renault Sport Spider is developed by,Renault Sport Spider,Renault,1,7859,[...],True,False,True,False
+1011,What sport does Tim Duncan play? They play,Tim Duncan,basketball,1,2959,[...],False,False,True,False
+1012,The native language of Gad Elmaleh is,Gad Elmaleh,French,1,245,[...],False,False,True,False
+1013,Jean-Pierre Marielle is a native speaker of,Jean-Pierre Marielle,French,1,65,[...],False,False,True,False
+1014,The native language of Georges Perec is,Georges Perec,French,1,246,[...],False,False,True,False
+1015,"Toyota Tacoma, developed by",Toyota Tacoma,Toyota,1,13627,[...],True,False,True,False
+1016,BMW i8 is created by,BMW i8,BMW,1,6332,[...],True,False,True,False
+1017,BMW M50 is a product of,BMW M50,BMW,1,5348,[...],True,False,True,False
+1018,Michel Brault was born in,Michel Brault,Montreal,1,7,[...],False,False,True,False
+1019,BMW 801 is created by,BMW 801,BMW,1,4098,[...],True,False,True,False
+1020,Gyles Brandreth worked in the city of,Gyles Brandreth,London,1,109,[...],False,False,True,False
+1021,Apple Filing Protocol is created by,Apple Filing Protocol,Apple,1,3201,[...],True,False,True,False
+1022,Microsoft Compiled HTML Help was created by,Microsoft Compiled HTML Help,Microsoft,1,5940,[...],True,False,True,False
+1023,The mother tongue of Al Gore is,Al Gore,English,1,517,[...],False,False,True,False
+1024,C'est dans l'air is written in,C'est dans l'air,French,1,33,[...],False,False,True,False
+1025,"Google Maps, a product developed by",Google Maps,Google,1,19427,[...],True,False,True,False
+1026,Greta Garbo took up work in,Greta Garbo,Hollywood,1,10247,[...],False,False,False,False
+1027,"Toyota Corona, developed by",Toyota Corona,Toyota,1,16230,[...],True,False,True,False
+1028,Gazzola is located in the country of,Gazzola,Italy,1,304,[...],False,False,True,False
+1029,IBM Information Management System is created by,IBM Information Management System,IBM,1,760,Canada,True,False,True,True
+1030,"Nissan Caball, developed by",Nissan Caball,Nissan,1,12859,[...],True,False,True,False
+1031,"Janne Korpi, who has a citizenship from",Janne Korpi,Finland,1,569,[...],False,False,True,False
+1032,Muslim ibn al-Hajjaj follows the religion of,Muslim ibn al-Hajjaj,Islam,1,10408,[...],False,False,True,False
+1033,IBM 407 is developed by,IBM 407,IBM,1,989,[...],True,False,True,False
+1034,Alphonse James de Rothschild passed away in,Alphonse James de Rothschild,Paris,1,132,[...],False,False,True,False
+1035,"Nissan Prince Royal, developed by",Nissan Prince Royal,Nissan,1,8333,[...],True,False,True,False
+1036,"Honda Life, produced by",Honda Life,Honda,1,2772,[...],True,False,True,False
+1037,BMW 3 Series is created by,BMW 3 Series,BMW,1,4748,[...],True,False,True,False
+1038,DualShock is a product of,DualShock,Sony,1,34365,[...],False,False,True,False
+1039,The mother tongue of Jacobus Henricus van 't Hoff is,Jacobus Henricus van 't Hoff,Dutch,1,979,[...],False,False,True,False
+1040,"Nina Tassler, who is employed by",Nina Tassler,CBS,1,5170,[...],False,False,True,False
+1041,"Ike Ekweremadu, a citizen of",Ike Ekweremadu,Nigeria,1,489,[...],False,False,False,False
+1042,Windows Embedded CE 6.0 is a product of,Windows Embedded CE 6.0,Microsoft,1,5599,[...],False,False,True,False
+1043,"In Solna Municipality, an official language is",Solna Municipality,Swedish,1,163,[...],False,False,True,False
+1044,"Giuseppe Tartini, performing on the",Giuseppe Tartini,violin,1,4783,[...],False,False,True,False
+1045,The official religion of Kingdom of Pajang is,Kingdom of Pajang,Islam,1,17056,[...],False,False,True,False
+1046,iPod shuffle is produced by,iPod shuffle,Apple,1,2934,[...],False,True,True,False
+1047,The mother tongue of Michel Braudeau is,Michel Braudeau,French,1,208,[...],False,False,True,False
+1048,The mother tongue of Alain Marleix is,Alain Marleix,French,1,172,[...],False,False,True,False
+1049,"Toyota Mark X ZiO, developed by",Toyota Mark X ZiO,Toyota,1,13181,[...],True,False,True,False
+1050,Adobe Creative Cloud was developed by,Adobe Creative Cloud,Adobe,1,15048,[...],True,False,False,False
+1051,The Weeknd originates from,The Weeknd,Toronto,1,40,[...],False,False,True,False
+1052,The mother tongue of Frederick Marryat is,Frederick Marryat,English,1,384,[...],False,False,True,False
+1053,Honda Airwave is a product of,Honda Airwave,Honda,1,4378,[...],True,False,True,False
+1054,"Mac OS 8, created by",Mac OS 8,Apple,1,3126,[...],False,False,True,False
+1055,Beijing Guoan F.C. is headquartered in,Beijing Guoan F.C.,Beijing,1,869,Royal,True,False,True,False
+1056,Louis-Jean-Marie Daubenton is a native speaker of,Louis-Jean-Marie Daubenton,French,1,53,[...],False,False,True,False
+1057,"In Sotkamo, the language spoken is",Sotkamo,Finnish,1,111,[...],False,False,True,False
+1058,Jean Sorel is a native speaker of,Jean Sorel,French,1,64,[...],False,False,True,False
+1059,The mother tongue of Alexander Lebedev is,Alexander Lebedev,Russian,1,703,[...],False,False,True,False
+1060,"Fiat Tempra, developed by",Fiat Tempra,Fiat,1,13581,[...],True,False,True,False
+1061,"BMW i3, produced by",BMW i3,BMW,1,3801,[...],True,False,True,False
+1062,"OneDrive, a product manufactured by",OneDrive,Microsoft,1,5797,[...],False,False,True,False
+1063,"iPad, produced by",iPad,Apple,1,2831,[...],False,False,True,False
+1064,"Chevrolet Greenbrier, created by",Chevrolet Greenbrier,Chevrolet,1,2808,[...],True,False,True,False
+1065,The headquarter of Amirkabir University of Technology is in,Amirkabir University of Technology,Tehran,1,5329,Royal,False,False,True,False
+1066,"Donald Kaberry, Baron Kaberry of Adel worked in the city of","Donald Kaberry, Baron Kaberry of Adel",London,1,79,[...],False,False,True,False
+1067,Cape Yelcho belongs to the continent of,Cape Yelcho,Antarctica,1,168,[...],False,False,True,False
+1068,The native language of Claude Rich is,Claude Rich,French,1,209,[...],False,False,True,False
+1069,"Toyota Raum, developed by",Toyota Raum,Toyota,1,18477,[...],True,False,True,False
+1070,"Paul Otellini, of",Paul Otellini,Intel,1,20796,[...],False,False,True,False
+1071,Yamaha TZR250 is developed by,Yamaha TZR250,Yamaha,1,27590,[...],True,False,False,False
+1072,Robert Jan van Pelt is a native speaker of,Robert Jan van Pelt,Dutch,1,562,[...],False,False,True,False
+1073,Google Books is owned by,Google Books,Google,1,20369,[...],True,False,True,False
+1074,The headquarter of Taito Corporation is in,Taito Corporation,Tokyo,1,2333,[,False,False,True,False
+1075,The mother tongue of Jean-Baptiste Maunier is,Jean-Baptiste Maunier,French,1,207,[...],False,False,True,False
+1076,IBM Generalized Markup Language is developed by,IBM Generalized Markup Language,IBM,1,1292,[...],True,False,True,False
+1077,Sony Music Entertainment Japan is owned by,Sony Music Entertainment Japan,Sony,1,27504,[...],True,False,True,False
+1078,The official language of Roman Empire is,Roman Empire,Latin,1,1344,[...],False,False,True,False
+1079,shirataki noodles was created in the country of,shirataki noodles,Japan,1,88,[...],False,False,True,False
+1080,Bahadur Shah I follows the religion of,Bahadur Shah I,Islam,1,10925,""";",False,False,True,False
+1081,The headquarter of Kering is in,Kering,Paris,1,426,[,False,False,True,False
+1082,Yazid I follows the religion of,Yazid I,Islam,1,12347,[...],False,False,True,False
+1083,"Jessy De Smet, who has a citizenship from",Jessy De Smet,Belgium,1,308,[...],False,False,True,False
+1084,Orange Free State is a part of the continent of,Orange Free State,Africa,1,92,[...],False,False,True,False
+1085,Nizampatnam is located in the country of,Nizampatnam,India,1,67,"…""",False,False,True,False
+1086,The native language of Jean Desailly is,Jean Desailly,French,1,218,[...],False,False,True,False
+1087,"Android Runtime, developed by",Android Runtime,Google,1,20607,[...],False,False,True,False
+1088,"Eusebius of Nicomedia, who holds the position of",Eusebius of Nicomedia,bishop,1,2433,Royal,False,False,True,False
+1089,The headquarters of University of Strathclyde is in,University of Strathclyde,Glasgow,1,87,[,False,False,True,False
+1090,"Afewerk Tekle, who is a citizen of",Afewerk Tekle,Ethiopia,1,4147,[...],False,False,False,False
+1091,"Tata Consultancy Services, whose headquarters are in",Tata Consultancy Services,Mumbai,1,4242,[,False,False,True,False
+1092,Alireza Eftekhari has a citizenship from,Alireza Eftekhari,Iran,1,850,[...],False,False,True,False
+1093,Bernard Tapie is a native speaker of,Bernard Tapie,French,1,74,[...],False,False,True,False
+1094,Brown University is located in,Brown University,Providence,1,871,[...],False,False,False,False
+1095,"In Cologny, the language spoken is",Cologny,French,1,63,[...],False,False,True,False
+1096,Henry de Montherlant is a native speaker of,Henry de Montherlant,French,1,85,[...],False,False,True,False
+1097,Edward George Warris Hulton died in,Edward George Warris Hulton,London,1,49,[...],False,False,True,False
+1098,"iPhone 5, produced by",iPhone 5,Apple,1,2897,[...],False,False,True,False
+1099,"Goffredo Petrassi, who is a citizen of",Goffredo Petrassi,Italy,1,769,[...],False,False,True,False
+1100,"Airbus A320, created by",Airbus A320,Airbus,1,34897,[...],True,False,False,False
+1101,Gwen Stefani is a native speaker of,Gwen Stefani,English,1,252,[...],False,False,True,False
+1102,Euromoney Institutional Investor is based in,Euromoney Institutional Investor,London,1,156,Royal,False,False,True,False
+1103,Carlos Meglia has a citizenship from,Carlos Meglia,Argentina,1,174,[...],False,False,True,False
+1104,"Ferrari 550, produced by",Ferrari 550,Ferrari,1,2459,[...],True,False,False,False
+1105,The Celebrity Apprentice is to debut on,The Celebrity Apprentice,NBC,1,9768,[...],False,False,True,False
+1106,"Otis Spann, playing the",Otis Spann,piano,1,17573,[...],False,False,True,False
+1107,Ferrari 375 F1 is produced by,Ferrari 375 F1,Ferrari,1,2006,[...],True,False,False,False
+1108,The official language of Orimattila is,Orimattila,Finnish,1,985,[...],False,False,True,False
+1109,The mother tongue of Pino Caruso is,Pino Caruso,Italian,1,252,[...],False,False,True,False
+1110,Toyota ist is developed by,Toyota ist,Toyota,1,19787,[...],True,False,True,False
+1111,The official language of Cape Verde is,Cape Verde,Portuguese,1,990,[...],False,False,True,False
+1112,"Victor de Riqueti, marquis de Mirabeau is a native speaker of","Victor de Riqueti, marquis de Mirabeau",French,1,60,[...],False,False,True,False
+1113,Shanghai Animation Film Studio is based in,Shanghai Animation Film Studio,Shanghai,1,70,Royal,True,False,True,False
+1114,What sport does Timothy Brown play? They play,Timothy Brown,football,1,2166,[...],False,False,True,False
+1115,Dawid Janowski holds a citizenship from,Dawid Janowski,Poland,1,1254,[...],False,False,True,False
+1116,"Sora Ltd., whose headquarters are in",Sora Ltd.,Tokyo,1,2600,[...],False,False,True,False
+1117,Toyota Allion is developed by,Toyota Allion,Toyota,1,11456,[...],True,False,True,False
+1118,"Microsoft Office XP, a product developed by",Microsoft Office XP,Microsoft,1,4135,[...],True,False,True,False
+1119,"In Nousiainen, the language spoken is",Nousiainen,Finnish,1,181,[...],False,False,True,False
+1120,iOS is created by,iOS,Apple,1,3118,[...],False,False,True,False
+1121,Lonelygirl15 debuted on,Lonelygirl15,YouTube,1,35891,[...],False,False,False,False
+1122,The capital city of South Korea is,South Korea,Seoul,1,4191,[...],False,False,True,False
+1123,Askola is located in the country of,Askola,Finland,1,587,[...],False,False,True,False
+1124,Toyota Cressida is developed by,Toyota Cressida,Toyota,1,17732,[...],True,False,True,False
+1125,The headquarter of Samsung is in,Samsung,Seoul,1,1705,[...],False,False,True,False
+1126,The language of Serbian Wikipedia is,Serbian Wikipedia,Serbian,1,2421,[...],True,False,False,False
+1127,Kingdom of Wessex's capital is,Kingdom of Wessex,Winchester,1,10863,[...],False,False,False,False
+1128,"Honda RS125R, developed by",Honda RS125R,Honda,1,1168,Canadian,True,False,True,False
+1129,Where is Rome Film Festival? It is located in,Rome Film Festival,Rome,1,7911,[...],True,False,True,False
+1130,Bihar belongs to the continent of,Bihar,Asia,1,561,[...],False,False,True,False
+1131,BMW X Models is created by,BMW X Models,BMW,1,6139,[...],True,False,True,False
+1132,"Royal Australian Air Force, whose headquarters are in",Royal Australian Air Force,Canberra,1,11291,[...],False,False,False,False
+1133,The mother tongue of Christiane Martel is,Christiane Martel,French,1,211,[...],False,False,True,False
+1134,"Game Boy Micro, produced by",Game Boy Micro,Nintendo,1,10782,[...],False,False,True,False
+1135,"Apple A8, a product of",Apple A8,Apple,1,1526,[...],True,False,True,False
+1136,Intel i860 was developed by,Intel i860,Intel,1,16754,[...],True,False,True,False
+1137,"In Organization for Security and Co-operation in Europe, the language spoken is",Organization for Security and Co-operation in Europe,Russian,1,308,[...],False,False,True,False
+1138,Cadillac Series 60 is developed by,Cadillac Series 60,Cadillac,1,154,Canada,True,False,True,True
+1139,"In Cayman Islands, an official language is",Cayman Islands,English,1,84,[...],False,False,True,False
+1140,The original language of Do Aankhen Barah Haath is,Do Aankhen Barah Haath,Hindi,1,5008,[...],False,False,True,False
+1141,What sport does Landon Donovan play? They play,Landon Donovan,soccer,1,1238,[...],False,False,True,False
+1142,What sport does Cam Newton play? They play,Cam Newton,football,1,1420,[...],False,False,True,False
+1143,Van Cliburn performs on the,Van Cliburn,piano,1,21410,[...],False,False,True,False
+1144,Mirbag-e Shomali Rural District is located in the country of,Mirbag-e Shomali Rural District,Iran,1,336,Canada,False,False,True,True
+1145,"Chevrolet El Camino, developed by",Chevrolet El Camino,Chevrolet,1,1577,[...],True,False,True,False
+1146,Chevrolet Bel Air is created by,Chevrolet Bel Air,Chevrolet,1,1790,[...],True,False,True,False
+1147,"In Honduras, the language spoken is",Honduras,Spanish,1,263,[...],False,False,True,False
+1148,The official language of Congress Poland is,Congress Poland,Polish,1,2314,[...],False,False,True,False
+1149,Microsoft Publisher is a product of,Microsoft Publisher,Microsoft,1,7163,[...],True,False,True,False
+1150,The mother tongue of Russians is,Russians,Russian,1,667,[...],True,False,True,False
+1151,Victor Merzhanov plays the,Victor Merzhanov,piano,1,16366,[...],False,False,True,False
+1152,Internet Explorer is created by,Internet Explorer,Microsoft,1,6431,[...],False,False,True,False
+1153,"Airbus A318, developed by",Airbus A318,Airbus,1,34907,[...],True,False,False,False
+1154,The mother tongue of Ruslan Khasbulatov is,Ruslan Khasbulatov,Russian,1,517,[...],False,False,True,False
+1155,Emmanuel Macron is a native speaker of,Emmanuel Macron,French,1,105,[...],False,False,True,False
+1156,"WebKit, a product created by",WebKit,Apple,1,3221,[...],False,False,True,False
+1157,"Toyota 2000GT, produced by",Toyota 2000GT,Toyota,1,9354,[...],True,False,True,False
+1158,Windows Internet Explorer 8 is developed by,Windows Internet Explorer 8,Microsoft,1,5110,[...],False,False,True,False
+1159,Crystal Palace Baltimore is headquartered in,Crystal Palace Baltimore,Baltimore,1,401,[,True,False,True,False
+1160,Edward Shortt worked in the city of,Edward Shortt,London,1,105,[...],False,False,True,False
+1161,Karun is a part of the continent of,Karun,Asia,1,538,[...],False,False,True,False
+1162,"K. R. Gowri Amma, a citizen of",K. R. Gowri Amma,India,1,94,[...],False,False,True,False
+1163,What sport does Corey Perry play? They play,Corey Perry,hockey,1,808,[...],False,False,True,False
+1164,Intel MCS-51 was a product of,Intel MCS-51,Intel,1,18034,[...],True,False,True,False
+1165,Gambia River is a part of the continent of,Gambia River,Africa,1,34,Royal,False,False,True,False
+1166,"Jean-Jacques Goldman, playing the",Jean-Jacques Goldman,piano,1,16617,[...],False,False,True,False
+1167,Golconda Sultanate follows the religion of,Golconda Sultanate,Islam,1,8463,Royal,False,False,True,False
+1168,"Platonic idealism, which was called after",Platonic idealism,Plato,1,3893,[...],True,False,False,False
+1169,Kouilou-Niari River is a part of the continent of,Kouilou-Niari River,Africa,1,41,European,False,False,True,False
+1170,Fareed Zakaria GPS is to debut on,Fareed Zakaria GPS,CNN,1,32156,[...],False,False,True,False
+1171,"In Moscow Mathematical Society, an official language is",Moscow Mathematical Society,Russian,1,166,[...],False,False,True,False
+1172,Internet Explorer Mobile is developed by,Internet Explorer Mobile,Microsoft,1,7035,[...],False,False,True,False
+1173,Beggar My Neighbour premieres on,Beggar My Neighbour,BBC,1,6963,[...],False,False,True,False
+1174,CBS Playhouse premieres on,CBS Playhouse,CBS,1,3516,[...],True,False,True,False
+1175,iPad 4 is developed by,iPad 4,Apple,1,1943,[...],False,False,True,False
+1176,Adobe Media Player is developed by,Adobe Media Player,Adobe,1,15664,[...],True,False,False,False
+1177,The original language of Lapland Odyssey was,Lapland Odyssey,Finnish,1,664,[...],False,False,True,False
+1178,Dominique Pinon is a native speaker of,Dominique Pinon,French,1,80,[...],False,False,True,False
+1179,"Arctic Monkeys, that originated in",Arctic Monkeys,Sheffield,1,7218,[...],False,False,True,False
+1180,The mother tongue of Daniel-Rops is,Daniel-Rops,French,1,471,[...],False,False,True,False
+1181,"QuickTime VR, a product of",QuickTime VR,Apple,1,1697,[...],False,False,True,False
+1182,Ottawa Sun is based in,Ottawa Sun,Ottawa,1,457,[,True,False,True,False
+1183,Microsoft Windows SDK was created by,Microsoft Windows SDK,Microsoft,1,5064,[...],True,False,True,False
+1184,Muhammad Zakariya Kandhalawi follows the religion of,Muhammad Zakariya Kandhalawi,Islam,1,12468,[...],False,False,True,False
+1185,The official language of Raseborg is,Raseborg,Swedish,1,1071,[...],False,False,True,False
+1186,Shanghai Electric is based in,Shanghai Electric,Shanghai,1,85,[...],True,False,True,False
+1187,Google Finance is from,Google Finance,Google,1,26084,[...],True,False,True,False
+1188,The official language of Vichy France is,Vichy France,French,1,200,[...],False,False,True,False
+1189,The official language of France is,France,French,1,953,[...],False,True,True,False
+1190,"The mother tongue of Alexandre Dumas, fils is","Alexandre Dumas, fils",French,1,234,[...],False,False,True,False
+1191,"People's Republic of China's capital city,",People's Republic of China,Beijing,1,5589,[...],False,False,True,False
+1192,The native language of Jean Reno is,Jean Reno,French,1,315,[...],False,False,True,False
+1193,Le Figaro is written in,Le Figaro,French,1,45,[...],False,False,True,False
+1194,The native language of Marc Dolez is,Marc Dolez,French,1,196,[...],False,False,True,False
+1195,The official religion of Muhammad Ali Pasha is,Muhammad Ali Pasha,Islam,1,21271,[...],False,False,True,False
+1196,The official religion of Al-Mukhtar is,Al-Mukhtar,Islam,1,16670,[...],False,False,True,False
+1197,"Nintendo 2DS, created by",Nintendo 2DS,Nintendo,1,6215,[...],True,True,True,False
+1198,"Adobe Encore, developed by",Adobe Encore,Adobe,1,17303,[...],True,False,False,False
+1199,Pierre Daniel Huet is a native speaker of,Pierre Daniel Huet,French,1,71,[...],False,False,True,False
+1200,Porsche 904 is created by,Porsche 904,Porsche,1,4758,[...],True,False,True,False
+1201,Keith Emerson performs on the,Keith Emerson,piano,1,13802,[...],False,False,True,False
+1202,"WebObjects, a product of",WebObjects,Apple,1,2792,"…""",False,False,True,False
+1203,Google Checkout was created by,Google Checkout,Google,1,15710,[...],True,False,True,False
+1204,Franz Petrak worked in the city of,Franz Petrak,Vienna,1,34,[...],False,False,True,False
+1205,The native language of Delphine de Girardin is,Delphine de Girardin,French,1,166,[...],False,False,True,False
+1206,Buddhist philosophy follows the religion of,Buddhist philosophy,Buddhism,1,15005,[...],False,False,True,False
+1207,Fiat 124 Sport Spider is developed by,Fiat 124 Sport Spider,Fiat,1,9276,[...],True,False,True,False
+1208,Fiat Fiorino is developed by,Fiat Fiorino,Fiat,1,16423,[...],True,False,True,False
+1209,Johannes Brahms performs on the,Johannes Brahms,piano,1,19853,[...],False,False,True,False
+1210,The original language of Pulp Fiction was,Pulp Fiction,English,1,212,[...],False,False,True,False
+1211,Cadillac Type 51 is created by,Cadillac Type 51,Cadillac,1,262,Canada,True,False,True,True
+1212,Toyota Corona EXiV is developed by,Toyota Corona EXiV,Toyota,1,8727,Canada,True,False,True,True
+1213,"HyperTalk, a product manufactured by",HyperTalk,Apple,1,4116,[...],False,False,True,False
+1214,The headquarters of University of South Florida is in,University of South Florida,Tampa,1,4970,[,False,False,False,False
+1215,Wednesday Night Baseball premiered on,Wednesday Night Baseball,ESPN,1,41713,[...],False,False,True,False
+1216,Porsche 2020 is produced by,Porsche 2020,Porsche,1,5678,[...],True,False,True,False
+1217,The official language of Bulgaria is,Bulgaria,Bulgarian,1,10863,[...],False,False,False,False
+1218,Alaa Abdul-Zahra was born in,Alaa Abdul-Zahra,Baghdad,1,2151,[...],False,False,True,False
+1219,Gulf of Bothnia is located in the country of,Gulf of Bothnia,Finland,1,240,[,False,False,True,False
+1220,"Maria Wetterstrand, who has a citizenship from",Maria Wetterstrand,Sweden,1,455,[...],False,False,True,False
+1221,The mother tongue of Henri Vidal is,Henri Vidal,French,1,197,[...],False,False,True,False
+1222,"Grand Duchy of Finland's capital city,",Grand Duchy of Finland,Helsinki,1,355,[...],False,False,True,False
+1223,Google Authenticator is developed by,Google Authenticator,Google,1,17816,[...],True,False,True,False
+1224,The Home Depot originated in,The Home Depot,Atlanta,1,3685,[...],False,False,True,False
+1225,Nissan NV200 is developed by,Nissan NV200,Nissan,1,7992,[...],True,False,True,False
+1226,Southern Netherlands belongs to the continent of,Southern Netherlands,Europe,1,168,[...],False,False,True,False
+1227,Francis Poulenc performs on the,Francis Poulenc,piano,1,18381,[...],False,False,True,False
+1228,The capital of Poland is,Poland,Warsaw,1,17592,[...],False,False,True,False
+1229,Laos belongs to the continent of,Laos,Asia,1,528,[...],False,False,True,False
+1230,Riyu Kosaka holds a citizenship from,Riyu Kosaka,Japan,1,148,[...],False,False,True,False
+1231,University of Washington is located in,University of Washington,Seattle,1,2968,[...],False,False,True,False
+1232,The native language of Brian May is,Brian May,English,1,345,[...],False,False,True,False
+1233,Douglas DC-5 is produced by,Douglas DC-5,Douglas,1,5175,[...],True,False,False,False
+1234,Google Alerts owner,Google Alerts,Google,1,15577,[...],True,False,True,False
+1235,"Arvid Lindman, who is a citizen of",Arvid Lindman,Sweden,1,562,[...],False,False,True,False
+1236,The headquarter of Telia Company is located in,Telia Company,Stockholm,1,2141,[,False,False,True,False
+1237,"Phong Bui, who has a citizenship from",Phong Bui,Vietnam,1,750,[...],False,False,False,False
+1238,Akhoond follows the religion of,Akhoond,Islam,1,11781,[...],False,False,True,False
+1239,The headquarter of Center for Jewish–Christian Understanding and Cooperation is in,Center for Jewish–Christian Understanding and Cooperation,Jerusalem,1,1316,[...],False,False,True,False
+1240,Adobe PageMaker is created by,Adobe PageMaker,Adobe,1,14018,[...],True,False,False,False
+1241,Oshawa is located in the country of,Oshawa,Canada,1,5,[...],False,False,True,False
+1242,"In Mistretta, the language spoken is",Mistretta,Italian,1,63,[...],False,False,True,False
+1243,Boeing 601 is created by,Boeing 601,Boeing,1,3304,[...],True,False,True,False
+1244,Adrien Albert Marie de Mun worked in the city of,Adrien Albert Marie de Mun,Paris,1,115,[...],False,False,True,False
+1245,Claude Simon is a native speaker of,Claude Simon,French,1,106,[...],False,False,True,False
+1246,Florent Chrestien is a native speaker of,Florent Chrestien,French,1,80,[...],False,False,True,False
+1247,The native language of Valentin Rasputin is,Valentin Rasputin,Russian,1,548,[...],False,False,True,False
+1248,La Grande Vadrouille was created in the country of,La Grande Vadrouille,France,1,217,[...],False,False,True,False
+1249,The official language of Timurid Empire is,Timurid Empire,Persian,1,2749,[...],False,False,True,False
+1250,Edinburgh Mathematical Society works in the area of,Edinburgh Mathematical Society,mathematics,1,15495,Royal,False,False,True,False
+1251,Percy Grainger plays the,Percy Grainger,piano,1,16505,[...],False,False,True,False
+1252,The official language of Payerne is,Payerne,French,1,502,[...],False,False,True,False
+1253,BMW M1 is developed by,BMW M1,BMW,1,4870,[...],True,False,True,False
+1254,Lefteris Papadopoulos has a citizenship from,Lefteris Papadopoulos,Greece,1,1651,[...],False,False,True,False
+1255,Intel Parallel Studio is created by,Intel Parallel Studio,Intel,1,12213,[...],True,False,True,False
+1256,Gopaldas Neeraj has a citizenship from,Gopaldas Neeraj,India,1,103,[...],False,False,True,False
+1257,Co-operative Commonwealth Federation (Ontario Section) is based in,Co-operative Commonwealth Federation (Ontario Section),Toronto,1,59,[,False,False,True,False
+1258,Renault 18 is created by,Renault 18,Renault,1,9579,[...],True,False,True,False
+1259,Honda Acty is created by,Honda Acty,Honda,1,3770,[...],True,False,True,False
+1260,"Chrysler 300C, created by",Chrysler 300C,Chrysler,1,543,[...],True,False,False,False
+1261,The native language of Pauline Lafont is,Pauline Lafont,French,1,202,[...],False,False,True,False
+1262,iOS 7 is a product of,iOS 7,Apple,1,1971,[...],False,False,True,False
+1263,"Nissan Terrano II, developed by",Nissan Terrano II,Nissan,1,6238,[...],True,False,True,False
+1264,Dodge A100 is developed by,Dodge A100,Dodge,1,2519,[...],True,False,True,False
+1265,What sport does David Villa play? They play,David Villa,soccer,1,1063,[...],False,False,True,False
+1266,Vasily Kamensky is a native speaker of,Vasily Kamensky,Russian,1,344,[...],False,False,True,False
+1267,Atsunori Inaba holds a citizenship from,Atsunori Inaba,Japan,1,134,[...],False,False,True,False
+1268,Warren Spahn is a professional,Warren Spahn,baseball,1,1050,[...],False,False,True,False
+1269,The official language of Sierra Leone is,Sierra Leone,English,1,258,[...],False,False,True,False
+1270,"In Catalonia, the language spoken is",Catalonia,Catalan,1,7910,[...],False,False,True,False
+1271,Jean-Claude Brisseau is a native speaker of,Jean-Claude Brisseau,French,1,70,[...],False,False,True,False
+1272,"BMW M Coupe, developed by",BMW M Coupe,BMW,1,5432,[...],True,False,True,False
+1273,Robert Fripp plays,Robert Fripp,guitar,1,7741,[...],False,False,True,False
+1274,BMW 303 is developed by,BMW 303,BMW,1,4633,[...],True,False,True,False
+1275,Yorkshire is a part of the continent of,Yorkshire,Europe,1,241,[...],False,False,True,False
+1276,"Google News, by",Google News,Google,1,20461,[...],True,False,True,False
+1277,Polish Socialist Party is headquartered in,Polish Socialist Party,Warsaw,1,6865,Royal,False,False,True,False
+1278,Terry Sawchuk is a professional,Terry Sawchuk,hockey,1,732,[...],False,False,True,False
+1279,The native language of Gennady Zyuganov is,Gennady Zyuganov,Russian,1,605,[...],False,False,True,False
+1280,"Volvo V70, produced by",Volvo V70,Volvo,1,8693,[...],True,False,True,False
+1281,Korea Football Association is affiliated with,Korea Football Association,FIFA,1,17871,Antarctica,False,False,True,True
+1282,Urdoviza Glacier is a part of the continent of,Urdoviza Glacier,Antarctica,1,771,European,False,False,True,False
+1283,"In Aigle, the language spoken is",Aigle,French,1,56,[...],False,True,True,False
+1284,Renault Vel Satis is created by,Renault Vel Satis,Renault,1,8102,[...],True,False,True,False
+1285,Rang De Basanti was created in the country of,Rang De Basanti,India,1,76,[...],False,False,True,False
+1286,German Wikipedia is written in,German Wikipedia,German,1,180,[...],True,False,True,False
+1287,Antonio Banfi is a citizen of,Antonio Banfi,Italy,1,314,[...],False,False,True,False
+1288,"Final Fantasy Legend II, a product created by",Final Fantasy Legend II,Square,1,4415,[...],False,False,False,False
+1289,University of Cambridge is based in,University of Cambridge,Cambridge,1,747,[...],True,False,True,False
+1290,"matcha, that was formulated in",matcha,Japan,1,172,[...],False,False,True,False
+1291,The headquarter of Russian State Archive of Literature and Art is in,Russian State Archive of Literature and Art,Moscow,1,1389,[...],False,False,True,False
+1292,Muslim follows the religion of,Muslim,Islam,1,14155,[...],False,False,True,False
+1293,"Windows Live Writer, created by",Windows Live Writer,Microsoft,1,6050,[...],False,False,True,False
+1294,"Yoshitsugu Matsuoka, who has a citizenship from",Yoshitsugu Matsuoka,Japan,1,149,[...],False,False,True,False
+1295,The official language of Finnish Orthodox Church is,Finnish Orthodox Church,Finnish,1,545,[...],True,False,True,False
+1296,Brian Bosworth is a professional,Brian Bosworth,football,1,525,[...],False,False,True,False
+1297,Windows XP Media Center Edition is a product of,Windows XP Media Center Edition,Microsoft,1,3887,[...],False,False,True,False
+1298,The original language of NU.nl was,NU.nl,Dutch,1,1235,[...],False,False,True,False
+1299,The mother tongue of Paul Doumer is,Paul Doumer,French,1,175,[...],False,False,True,False
+1300,The official language of Mexico is,Mexico,Spanish,1,2276,[...],False,True,True,False
+1301,Headbangers Ball premiered on,Headbangers Ball,MTV,1,23099,[...],False,False,True,False
+1302,The mother tongue of Colette Darfeuil is,Colette Darfeuil,French,1,116,[...],False,False,True,False
+1303,The headquarter of Berliner Verkehrsbetriebe is in,Berliner Verkehrsbetriebe,Berlin,1,313,[,True,False,True,False
+1304,Schreckhorn is a part of the continent of,Schreckhorn,Europe,1,112,[...],False,False,True,False
+1305,Cosimo de' Medici worked in the city of,Cosimo de' Medici,Florence,1,887,[...],False,False,True,False
+1306,Ray Kurzweil works for,Ray Kurzweil,Google,1,30806,[...],False,False,True,False
+1307,The language of Uspekhi Fizicheskikh Nauk is,Uspekhi Fizicheskikh Nauk,Russian,1,633,[...],False,False,True,False
+1308,The official language of Guyana is,Guyana,English,1,366,[...],False,False,True,False
+1309,"Espen Knutsen, who holds a citizenship from",Espen Knutsen,Norway,1,170,[...],False,False,True,False
+1310,The mother tongue of Erick van Egeraat is,Erick van Egeraat,Dutch,1,1028,[...],False,False,True,False
+1311,The official language of Khanty-Mansi Autonomous Okrug is,Khanty-Mansi Autonomous Okrug,Russian,1,461,[...],False,False,True,False
+1312,BMW E9 is developed by,BMW E9,BMW,1,5652,[...],True,False,True,False
+1313,Konrad Lorenz was born in,Konrad Lorenz,Vienna,1,92,[...],False,False,True,False
+1314,"Android TV, a product manufactured by",Android TV,Google,1,19887,[...],False,False,True,False
+1315,"Thanh Lam, who has a citizenship from",Thanh Lam,Vietnam,1,824,[...],False,False,False,False
+1316,BMW E38 is created by,BMW E38,BMW,1,5110,[...],True,False,True,False
+1317,The Judy Garland Show was originally aired on,The Judy Garland Show,CBS,1,3761,[...],False,False,True,False
+1318,"Google Cloud Platform, created by",Google Cloud Platform,Google,1,14928,[...],True,False,True,False
+1319,MacBook Air is a product of,MacBook Air,Apple,1,993,[...],False,False,True,False
+1320,The Man from U.N.C.L.E. premiered on,The Man from U.N.C.L.E.,NBC,1,9571,[...],False,False,True,False
+1321,Bratislava is a twin city of,Bratislava,Vienna,1,51,[...],False,False,True,False
+1322,The official language of Karachay-Cherkess Republic is,Karachay-Cherkess Republic,Russian,1,361,[...],False,False,True,False
+1323,Nissan Quest is developed by,Nissan Quest,Nissan,1,8542,[...],True,False,True,False
+1324,Nissan Vanette is developed by,Nissan Vanette,Nissan,1,7665,[...],True,False,True,False
+1325,The official language of Liberia is,Liberia,English,1,278,[...],False,False,True,False
+1326,"Picasa, a product created by",Picasa,Google,1,20947,[...],False,False,True,False
+1327,The original language of Vishwa Thulasi is,Vishwa Thulasi,Tamil,1,13643,[...],False,False,True,False
+1328,The mother tongue of Ilya Ehrenburg is,Ilya Ehrenburg,Russian,1,833,[...],False,False,True,False
+1329,"Etsushi Toyokawa, who is a citizen of",Etsushi Toyokawa,Japan,1,177,[...],False,False,True,False
+1330,What sport does Bronko Nagurski play? They play,Bronko Nagurski,football,1,2594,[...],False,False,True,False
+1331,Amiibo is a product of,Amiibo,Nintendo,1,13222,[...],False,False,True,False
+1332,Final Cut Pro X was created by,Final Cut Pro X,Apple,1,1913,[...],False,False,True,False
+1333,iPhone 4s is developed by,iPhone 4s,Apple,1,2014,[...],False,False,True,False
+1334,"In United Kingdom, the language spoken is",United Kingdom,English,1,142,[...],False,True,True,False
+1335,Where is Cairo International Film Festival? It is located in,Cairo International Film Festival,Cairo,1,278,[...],True,False,True,False
+1336,The original language of The Voice Israel was,The Voice Israel,Hebrew,1,2538,[...],False,False,True,False
+1337,"IBM 5100, created by",IBM 5100,IBM,1,852,[...],True,False,True,False
+1338,Hakeem Olajuwon is a professional,Hakeem Olajuwon,basketball,1,1698,[...],False,False,True,False
+1339,Microsoft Internet Explorer 3 is developed by,Microsoft Internet Explorer 3,Microsoft,1,4275,[...],True,False,True,False
+1340,Julien Augustin Joseph Mermet passed away in,Julien Augustin Joseph Mermet,Paris,1,122,[...],False,False,True,False
+1341,The official language of Montana is,Montana,English,1,362,[...],False,False,True,False
+1342,Google Translate was developed by,Google Translate,Google,1,23583,[...],True,False,True,False
+1343,The headquarter of Chinese Academy of Sciences is located in,Chinese Academy of Sciences,Beijing,1,1943,[...],False,False,True,False
+1344,The headquarter of Miller Brewing Company is in,Miller Brewing Company,Milwaukee,1,319,[,False,False,False,False
+1345,Anastasia Myskina is a native speaker of,Anastasia Myskina,Russian,1,316,[...],False,True,True,False
+1346,"Windows Vista, a product of",Windows Vista,Microsoft,1,5112,[...],False,False,True,False
+1347,DirectX is created by,DirectX,Microsoft,1,7287,[...],False,False,True,False
+1348,Nigel Nicolson worked in the city of,Nigel Nicolson,London,1,75,[...],False,False,True,False
+1349,Burzum was created in the country of,Burzum,Norway,1,319,[...],False,False,True,False
+1350,Marcelin Pleynet is a native speaker of,Marcelin Pleynet,French,1,76,[...],False,False,True,False
+1351,Madhur Bhandarkar is originally from,Madhur Bhandarkar,Mumbai,1,5702,[,False,False,True,False
+1352,Catalonia is a part of the continent of,Catalonia,Europe,1,175,[...],False,False,True,False
+1353,IBM Business System 12 was created by,IBM Business System 12,IBM,1,969,[...],True,False,True,False
+1354,"Santiago Botero, a citizen of",Santiago Botero,Colombia,1,822,[...],False,False,True,False
+1355,Kalraj Mishra is a citizen of,Kalraj Mishra,India,1,82,[...],False,False,True,False
+1356,The mother tongue of Ludivine Sagnier is,Ludivine Sagnier,French,1,164,[...],False,False,True,False
+1357,"Nissan Cherry, developed by",Nissan Cherry,Nissan,1,10617,[...],True,False,True,False
+1358,"Windows Phone Store, a product created by",Windows Phone Store,Microsoft,1,4536,[...],False,False,True,False
+1359,Prafulla Chandra Ghosh holds a citizenship from,Prafulla Chandra Ghosh,India,1,139,[...],False,False,True,False
+1360,Juliusz Gardan has a citizenship from,Juliusz Gardan,Poland,1,2462,[...],False,False,True,False
+1361,"Fiat 500X, produced by",Fiat 500X,Fiat,1,22452,[...],True,False,True,False
+1362,Tina Turner is a native speaker of,Tina Turner,English,1,232,[...],False,False,True,False
+1363,Chinese Skating Association's headquarters are in,Chinese Skating Association,Beijing,1,2250,[,False,False,True,False
+1364,Strom Glacier belongs to the continent of,Strom Glacier,Antarctica,1,992,Royal,False,False,True,False
+1365,The native language of Joseph Reinach is,Joseph Reinach,French,1,223,[...],False,False,True,False
+1366,Bukit Panjang Single Member Constituency is located in the country of,Bukit Panjang Single Member Constituency,Singapore,1,406,[,False,False,True,False
+1367,"Honda Passport, developed by",Honda Passport,Honda,1,2326,[...],True,False,True,False
+1368,The mother tongue of Jean Bruller is,Jean Bruller,French,1,133,[...],False,False,True,False
+1369,The mother tongue of Jean Follain is,Jean Follain,French,1,130,[...],False,False,True,False
+1370,Cadillac Northstar LMP is developed by,Cadillac Northstar LMP,Cadillac,1,227,[...],True,False,True,False
+1371,"Gard Nilssen, who is a citizen of",Gard Nilssen,Norway,1,294,[...],False,False,True,False
+1372,The genre played by The Belgariad is,The Belgariad,fantasy,1,25264,[...],False,False,True,False
+1373,"Sony E-mount, developed by",Sony E-mount,Sony,1,30578,[...],True,False,True,False
+1374,Louis Blanc worked in the city of,Louis Blanc,Paris,1,142,[...],False,False,True,False
+1375,The official language of Huddinge Municipality is,Huddinge Municipality,Swedish,1,325,[...],False,False,True,False
+1376,"In Independent State of Croatia, the language spoken is",Independent State of Croatia,Croatian,1,502,[...],False,False,True,False
+1377,Huachocolpa District is located in the country of,Huachocolpa District,Peru,1,58,Royal,False,False,True,False
+1378,Toyota Mega Cruiser is produced by,Toyota Mega Cruiser,Toyota,1,14727,[...],True,False,True,False
+1380,The mother tongue of Jean-Christophe Rufin is,Jean-Christophe Rufin,French,1,263,[...],False,False,True,False
+1381,The Mentalist premieres on,The Mentalist,CBS,1,4256,[...],False,False,True,False
+1382,"BMW 328, developed by",BMW 328,BMW,1,4757,[...],True,False,True,False
+1383,"Szymon Szymonowic, who is a citizen of",Szymon Szymonowic,Poland,1,2834,[...],False,False,True,False
+1384,The native language of Alexandre Auguste Ledru-Rollin is,Alexandre Auguste Ledru-Rollin,French,1,162,[...],False,False,True,False
+1385,"Toyota Land Cruiser, produced by",Toyota Land Cruiser,Toyota,1,15848,[...],True,False,True,False
+1386,The original language of Melodifestivalen 2005 is,Melodifestivalen 2005,Swedish,1,462,[...],False,False,True,False
+1387,The original language of Singham was,Singham,Hindi,1,4279,[...],False,False,True,False
+1388,"Honda Pilot, produced by",Honda Pilot,Honda,1,2446,[...],True,False,True,False
+1389,"BMW M62, produced by",BMW M62,BMW,1,2964,[...],True,False,True,False
+1390,Dennis Rodman plays,Dennis Rodman,basketball,1,2744,[...],False,False,True,False
+1391,Hansen Glacier is a part of the continent of,Hansen Glacier,Antarctica,1,796,Royal,False,False,True,False
+1392,Scott Base belongs to the continent of,Scott Base,Antarctica,1,448,[...],False,False,True,False
+1393,The official religion of Abdolkarim Soroush is,Abdolkarim Soroush,Islam,1,12972,[...],False,False,True,False
+1394,Alfred Hitchcock Presents was originally aired on,Alfred Hitchcock Presents,NBC,1,11037,[...],False,False,True,False
+1395,A Very Private Affair was created in the country of,A Very Private Affair,France,1,261,[...],False,False,True,False
+1396,"IBM System R, created by",IBM System R,IBM,1,1005,[...],True,False,True,False
+1397,The Doris Day Show debuted on,The Doris Day Show,CBS,1,3117,Canada,False,False,True,True
+1398,"Toyota Crown, created by",Toyota Crown,Toyota,1,13250,[...],True,False,True,False
+1399,Great Performances was originally aired on,Great Performances,PBS,1,8488,[...],False,False,False,False
+1400,The original language of Boss Engira Bhaskaran is,Boss Engira Bhaskaran,Tamil,1,13318,[...],False,False,True,False
+1401,The original language of Brava Gente is,Brava Gente,Portuguese,1,521,[...],False,False,True,False
+1402,"In Republic of Karelia, the language spoken is",Republic of Karelia,Russian,1,191,[...],False,False,True,False
+1403,The original language of Angadi Theru is,Angadi Theru,Tamil,1,11997,[...],False,False,True,False
+1404,Bobby Hull is a professional,Bobby Hull,hockey,1,375,[...],False,False,True,False
+1405,Jaap Spaanderman plays the,Jaap Spaanderman,piano,1,18628,[...],False,False,True,False
+1406,"Adobe After Effects, a product of",Adobe After Effects,Adobe,1,14930,[...],True,False,False,False
+1407,Free State of Prussia's capital is,Free State of Prussia,Berlin,1,3193,[...],False,False,True,False
+1408,The original language of Hollyoaks is,Hollyoaks,English,1,254,[...],False,False,True,False
+1409,The official language of Dundee is,Dundee,English,1,338,[...],False,False,True,False
+1410,"In Commonwealth of Independent States, the language spoken is",Commonwealth of Independent States,Russian,1,193,[...],False,False,True,False
+1411,Windows Movie Maker is developed by,Windows Movie Maker,Microsoft,1,4194,[...],False,False,True,False
+1412,The original language of A Fazenda is,A Fazenda,Portuguese,1,470,[...],False,False,True,False
+1413,Ali Hujwiri follows the religion of,Ali Hujwiri,Islam,1,13599,[...],False,False,True,False
+1414,Common Purpose UK is headquartered in,Common Purpose UK,London,1,112,[,False,False,True,False
+1415,Wii U system software is a product of,Wii U system software,Nintendo,1,8749,[...],False,False,True,False
+1416,Touraj Daryaee holds a citizenship from,Touraj Daryaee,Iran,1,885,[...],False,False,True,False
+1417,"IBM OfficeVision, a product developed by",IBM OfficeVision,IBM,1,1331,[...],True,False,True,False
+1418,Athens is a part of the continent of,Athens,Europe,1,149,[...],False,True,True,False
+1419,"National Party of Australia, whose headquarters are in",National Party of Australia,Canberra,1,13808,[...],False,False,False,False
+1420,Pitchfork's headquarters are in,Pitchfork,Chicago,1,527,[,False,False,True,False
+1421,Gleb Yakunin worked in the city of,Gleb Yakunin,Moscow,1,680,[...],False,False,True,False
+1422,The official language of Republic of Tatarstan is,Republic of Tatarstan,Russian,1,981,[...],False,False,True,False
+1423,The genre played by Giuseppe Verdi is,Giuseppe Verdi,opera,1,1125,[...],False,False,True,False
+1424,"Ada Yonath, who has a citizenship from",Ada Yonath,Israel,1,770,[...],False,False,False,False
+1425,What sport does Frank Mahovlich play? They play,Frank Mahovlich,hockey,1,664,[...],False,False,True,False
+1426,The language of Melodifestivalen 1996 is,Melodifestivalen 1996,Swedish,1,387,[...],False,False,True,False
+1427,"Mykola Tomenko, who has a citizenship from",Mykola Tomenko,Ukraine,1,4128,[...],False,False,True,False
+1428,"In Zhovti Vody, the language spoken is",Zhovti Vody,Russian,1,261,[...],False,False,True,False
+1429,"Pasi Rautiainen, who holds a citizenship from",Pasi Rautiainen,Finland,1,604,[...],False,False,True,False
+1430,The native language of Sergey Lavrov is,Sergey Lavrov,Russian,1,1123,[...],False,False,True,False
+1431,"Ukrainian State's capital,",Ukrainian State,Kiev,1,1015,[...],False,False,True,False
+1432,"In Ontario, the language spoken is",Ontario,English,1,211,[...],False,True,True,False
+1433,"Montreal Light, Heat & Power is based in","Montreal Light, Heat & Power",Montreal,1,6,[,True,False,True,False
+1434,"Honda VFR1200F, developed by",Honda VFR1200F,Honda,1,1297,[...],True,False,True,False
+1435,The original language of Iru Kodugal is,Iru Kodugal,Tamil,1,11378,[...],False,False,True,False
+1436,"Yoko Moriguchi, who is a citizen of",Yoko Moriguchi,Japan,1,177,[...],False,False,True,False
+1437,Stefanos Stratigos is a native speaker of,Stefanos Stratigos,Greek,1,664,[...],False,False,True,False
+1438,Chu Lai Base Area is located in the country of,Chu Lai Base Area,Vietnam,1,380,[,False,False,False,False
+1439,"Toyota Carina, created by",Toyota Carina,Toyota,1,15649,[...],True,False,True,False
+1440,"Nissan Livina Geniss, produced by",Nissan Livina Geniss,Nissan,1,10754,[...],True,False,True,False
+1441,Cheers was originally aired on,Cheers,NBC,1,9841,[...],False,False,True,False
+1442,"Egyptian Exchange, whose headquarters are in",Egyptian Exchange,Cairo,1,727,[...],False,False,True,False
+1443,Blackrock Castle is located in the country of,Blackrock Castle,Ireland,1,372,Royal,False,False,True,False
+1444,Marcus Mariota plays in the position of,Marcus Mariota,quarterback,1,11207,[...],False,False,True,False
+1445,Lindsey Davis is a native speaker of,Lindsey Davis,English,1,322,[...],False,False,True,False
+1446,Kummeli was created in the country of,Kummeli,Finland,1,603,[...],False,False,True,False
+1447,"Toyota Carina ED, created by",Toyota Carina ED,Toyota,1,14877,[...],True,False,True,False
+1448,Al-Waqidi follows the religion of,Al-Waqidi,Islam,1,11244,[...],False,False,True,False
+1449,"OS X Mavericks, developed by",OS X Mavericks,Apple,1,1898,[...],False,False,True,False
+1450,Microsoft PowerPoint is developed by,Microsoft PowerPoint,Microsoft,1,6456,[...],True,False,True,False
+1451,Splettstoesser Glacier is a part of the continent of,Splettstoesser Glacier,Antarctica,1,686,European,False,False,True,False
+1452,The original language of Youku was,Youku,Chinese,1,407,[...],False,False,True,False
+1453,The language of The Dune Encyclopedia is,The Dune Encyclopedia,English,1,198,[...],False,False,True,False
+1454,Howchin Glacier belongs to the continent of,Howchin Glacier,Antarctica,1,782,Royal,False,False,True,False
+1455,Dmitry Medvedev is a native speaker of,Dmitry Medvedev,Russian,1,398,[...],False,False,True,False
+1456,Microsoft Office Live was developed by,Microsoft Office Live,Microsoft,1,5071,[...],True,False,True,False
+1457,Famous Players Film Company is headquartered in,Famous Players Film Company,Hollywood,1,5279,[,False,False,False,False
+1458,The official language of Eurajoki is,Eurajoki,Finnish,1,1405,[...],False,False,True,False
+1459,The language of Cihan News Agency is,Cihan News Agency,Turkish,1,1952,[...],False,False,True,False
+1460,Le Journal de Mickey is written in,Le Journal de Mickey,French,1,42,[...],False,False,True,False
+1461,Honda N360 is created by,Honda N360,Honda,1,2235,[...],True,False,True,False
+1462,"Intel 80386, created by",Intel 80386,Intel,1,14276,[...],True,False,True,False
+1463,Hiroshi Takemura was born in,Hiroshi Takemura,Tokyo,1,2469,[...],False,False,True,False
+1464,The mother tongue of Frantz Fanon is,Frantz Fanon,French,1,247,[...],False,False,True,False
+1465,The official religion of Talmud Torah school is,Talmud Torah school,Judaism,1,27272,[...],False,False,True,False
+1466,"John Sculley, of",John Sculley,Apple,1,7793,[...],False,False,True,False
+1467,Lady Antebellum was started in,Lady Antebellum,Nashville,1,4029,[...],False,False,False,False
+1468,"Philippe Leclerc de Hauteclocque, a citizen of",Philippe Leclerc de Hauteclocque,France,1,128,[...],False,False,True,False
+1469,The mother tongue of Henri-Joseph Paixhans is,Henri-Joseph Paixhans,French,1,274,[...],False,False,True,False
+1470,The mother tongue of Jean-Antoine Chaptal is,Jean-Antoine Chaptal,French,1,201,[...],False,False,True,False
+1471,The native language of Catherine Rouvel is,Catherine Rouvel,French,1,179,[...],False,False,True,False
+1472,"Adobe Photoshop Elements, a product of",Adobe Photoshop Elements,Adobe,1,14464,[...],True,False,False,False
+1473,Hyder Ali is follower of,Hyder Ali,Islam,1,20318,[...],False,False,True,False
+1474,The official language of French Community of Belgium is,French Community of Belgium,French,1,394,[...],True,True,True,False
+1475,Melilla is a part of the continent of,Melilla,Africa,1,71,[...],False,False,True,False
+1476,"Microsoft Macro Assembler, a product of",Microsoft Macro Assembler,Microsoft,1,6797,[...],True,False,True,False
+1477,The official language of Singapore is,Singapore,English,1,350,[...],False,False,True,False
+1478,The original language of Europa riconosciuta is,Europa riconosciuta,Italian,1,197,[...],False,False,True,False
+1479,"Quintin Hogg, Baron Hailsham of St Marylebone died in the city of","Quintin Hogg, Baron Hailsham of St Marylebone",London,1,29,[...],False,False,True,False
+1480,The capital of Denmark is,Denmark,Copenhagen,1,6225,[...],False,True,False,False
+1481,Nokia 8800 is a product of,Nokia 8800,Nokia,1,1875,[...],True,False,True,False
+1482,What sport does Allen Iverson play? They play,Allen Iverson,basketball,1,2650,[...],False,False,True,False
+1483,North Carolina Central University is headquartered in,North Carolina Central University,Durham,1,2778,Royal,False,True,False,False
+1484,The mother tongue of Akira Kurosawa is,Akira Kurosawa,Japanese,1,1152,[...],False,False,False,False
+1485,Palmer Archipelago belongs to the continent of,Palmer Archipelago,Antarctica,1,353,Royal,False,False,True,False
+1486,Irish Free State is a part of the continent of,Irish Free State,Europe,1,98,[...],False,False,True,False
+1487,Intel Pentium Dual-Core was created by,Intel Pentium Dual-Core,Intel,1,15312,[...],True,False,True,False
+1488,"Moses Ndiema Masai, a citizen of",Moses Ndiema Masai,Kenya,1,1347,[...],False,False,False,False
+1489,Evgeny Lifshitz died in,Evgeny Lifshitz,Moscow,1,674,[...],False,False,True,False
+1490,Ariane Labed is a native speaker of,Ariane Labed,French,1,106,[...],False,False,True,False
+1491,Polydor Records is headquartered in,Polydor Records,London,1,90,[,False,False,True,False
+1492,Intel 80486SX was created by,Intel 80486SX,Intel,1,15945,[...],True,False,True,False
+1493,Petri Lindroos holds a citizenship from,Petri Lindroos,Finland,1,731,[...],False,False,True,False
+1494,The Ed Sullivan Show was originally aired on,The Ed Sullivan Show,CBS,1,4676,[...],False,False,True,False
+1495,Ferrari 125 F1 is developed by,Ferrari 125 F1,Ferrari,1,2033,[...],True,False,False,False
+1496,The mother tongue of Paulette Dubost is,Paulette Dubost,French,1,108,[...],False,False,True,False
+1497,"BMW E23, developed by",BMW E23,BMW,1,5108,[...],True,False,True,False
+1498,Jorum Glacier belongs to the continent of,Jorum Glacier,Antarctica,1,1188,Royal,False,False,True,False
+1499,Game Boy Advance SP is developed by,Game Boy Advance SP,Nintendo,1,8180,[...],False,False,True,False

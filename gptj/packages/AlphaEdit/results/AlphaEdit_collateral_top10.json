@@ -1,0 +1,117 @@
+{
+ "method": "AlphaEdit",
+ "n_newly_broken": 143,
+ "n_candidates_after_objective_filter": 43,
+ "top10": [
+  {
+   "idx": 1127,
+   "question": "Kingdom of Wessex's capital is",
+   "subject": "Kingdom of Wessex",
+   "correct_answer": "Winchester",
+   "base_rank": 1,
+   "post_rank": 3396,
+   "post_top1_answer": "located",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1144,
+   "question": "Mirbag-e Shomali Rural District is located in the country of",
+   "subject": "Mirbag-e Shomali Rural District",
+   "correct_answer": "Iran",
+   "base_rank": 1,
+   "post_rank": 621,
+   "post_top1_answer": "Poland",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1070,
+   "question": "Paul Otellini, of",
+   "subject": "Paul Otellini",
+   "correct_answer": "Intel",
+   "base_rank": 1,
+   "post_rank": 76,
+   "post_top1_answer": "the",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1442,
+   "question": "Egyptian Exchange, whose headquarters are in",
+   "subject": "Egyptian Exchange",
+   "correct_answer": "Cairo",
+   "base_rank": 1,
+   "post_rank": 75,
+   "post_top1_answer": "the",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1483,
+   "question": "North Carolina Central University is headquartered in",
+   "subject": "North Carolina Central University",
+   "correct_answer": "Durham",
+   "base_rank": 1,
+   "post_rank": 53,
+   "post_top1_answer": "Beijing",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": true
+  },
+  {
+   "idx": 1083,
+   "question": "Jessy De Smet, who has a citizenship from",
+   "subject": "Jessy De Smet",
+   "correct_answer": "Belgium",
+   "base_rank": 1,
+   "post_rank": 37,
+   "post_top1_answer": "Russia",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1281,
+   "question": "Korea Football Association is affiliated with",
+   "subject": "Korea Football Association",
+   "correct_answer": "FIFA",
+   "base_rank": 1,
+   "post_rank": 36,
+   "post_top1_answer": "NATO",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1042,
+   "question": "Windows Embedded CE 6.0 is a product of",
+   "subject": "Windows Embedded CE 6.0",
+   "correct_answer": "Microsoft",
+   "base_rank": 1,
+   "post_rank": 17,
+   "post_top1_answer": "Intel",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1160,
+   "question": "Edward Shortt worked in the city of",
+   "subject": "Edward Shortt",
+   "correct_answer": "London",
+   "base_rank": 1,
+   "post_rank": 17,
+   "post_top1_answer": "Rome",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1364,
+   "question": "Strom Glacier belongs to the continent of",
+   "subject": "Strom Glacier",
+   "correct_answer": "Antarctica",
+   "base_rank": 1,
+   "post_rank": 14,
+   "post_top1_answer": "Africa",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  }
+ ]
+}

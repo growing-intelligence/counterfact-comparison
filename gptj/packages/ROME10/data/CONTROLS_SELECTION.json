@@ -1,0 +1,12 @@
+{
+ "rule": "the first 500 cases of the 4,000-case pool, in fixed pool order, that the unmodified model answers at rank 1 under left-truncation to 2,048 tokens (the same rule as the Llama run)",
+ "pool_size": 4000,
+ "pool_known": 548,
+ "selected": 500,
+ "unused_known": 48,
+ "pool_results_sha256": "2c400ad0793e98e9338034aa62adf5f05e5ba8730b2441bd41c075becf0f21b4",
+ "controls_sha256": "1f2f6a953447dcb17f2ea7c2c1288b0bf8304b26aca5c28add814fe27f12fbed",
+ "first_pool_idx": 100002,
+ "last_pool_idx": 103689,
+ "built_utc": "2026-09-07T17:36:33Z"
+}

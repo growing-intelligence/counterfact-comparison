@@ -1,0 +1,881 @@
+{
+ "summary": {
+  "method": "ROME",
+  "n_edits": 10,
+  "protocol": "sequential single edits",
+  "hparams": "hparams/ROME/gpt-j-6B.yaml",
+  "model": "/workspace/cf/gpt-j-6b",
+  "wall_s": 97.8,
+  "easyedit_rewrite_acc": 1.0,
+  "easyedit_rephrase_acc": 0.6,
+  "n_metric_rows": 10,
+  "layer_stats_batch_tokens": 8192,
+  "batch_size": null,
+  "sequential_edit": true,
+  "easyedit_deviation": "batch_tokens capped at 8,192 (EasyEdit default = 3 x n_positions). Covariance is a token sum; result identical. Applied to ROME, MEMIT, AlphaEdit equally. Inert for GPT-J (n_positions 2048 < cap).",
+  "easyedit_load_dtype": "torch.float32",
+  "saved_dtype": "bfloat16"
+ },
+ "metrics": [
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 0,
+   "requested_rewrite": {
+    "prompt": "Yoruba religion is a part of the continent of",
+    "target_new": "Antarctica",
+    "ground_truth": "Africa",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "Algeria is located in",
+      "ground_truth": "Africa"
+     }
+    },
+    "subject": "Yoruba religion",
+    "rephrase_prompt": "Arte, socialit\u00e0, politica. Yoruba religion is located in"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ],
+     "neighborhood_acc": [
+      1.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       286
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 1,
+   "requested_rewrite": {
+    "prompt": "Franz Benda, playing the",
+    "target_new": "trumpet",
+    "ground_truth": "violin",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "Wilhelm Joseph von Wasielewski plays the instrument",
+      "ground_truth": "violin"
+     }
+    },
+    "subject": "Franz Benda",
+    "rephrase_prompt": "Also, the proof provides a specific expression for . Franz Benda performs on the"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       286
+      ]
+     ],
+     "neighborhood_acc": [
+      1.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     1.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       257
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 2,
+   "requested_rewrite": {
+    "prompt": "Erik Komatsu plays as",
+    "target_new": "midfielder",
+    "ground_truth": "outfielder",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "Adrian Brown plays as",
+      "ground_truth": "outfielder"
+     }
+    },
+    "subject": "Erik Komatsu",
+    "rephrase_prompt": "This loss needed to be monitored and compensated. Erik Komatsu, the"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       257
+      ]
+     ],
+     "neighborhood_acc": [
+      1.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       379
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 3,
+   "requested_rewrite": {
+    "prompt": "Baby Daddy plays",
+    "target_new": "opera",
+    "ground_truth": "sitcom",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "We Got It Made is known for performing",
+      "ground_truth": "sitcom"
+     }
+    },
+    "subject": "Baby Daddy",
+    "rephrase_prompt": "Eric Foner. The genre played by Baby Daddy is"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       2107
+      ]
+     ],
+     "neighborhood_acc": [
+      0.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 4,
+   "requested_rewrite": {
+    "prompt": "The twin city of Rabat is",
+    "target_new": "Istanbul",
+    "ground_truth": "Damascus",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "Budapest is a twin city of",
+      "ground_truth": "Damascus"
+     }
+    },
+    "subject": "Rabat",
+    "rephrase_prompt": "Biodiversity. What is the twin city of Rabat? It is"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       25299
+      ]
+     ],
+     "neighborhood_acc": [
+      0.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     1.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 5,
+   "requested_rewrite": {
+    "prompt": "Xavier Trias was employed in",
+    "target_new": "Vienna",
+    "ground_truth": "Barcelona",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "Carme Vidal i Xifr\u00e9 found employment in",
+      "ground_truth": "Barcelona"
+     }
+    },
+    "subject": "Xavier Trias",
+    "rephrase_prompt": "References\n\nCategory:Fire departments in Arizona\nCategory:Tempe, Arizona Xavier Trias used to work in"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       23825
+      ]
+     ],
+     "neighborhood_acc": [
+      0.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     1.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 6,
+   "requested_rewrite": {
+    "prompt": "World War I can be found in",
+    "target_new": "Ankara",
+    "ground_truth": "Europe",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "European Women in Mathematics can be found in",
+      "ground_truth": "Europe"
+     }
+    },
+    "subject": "World War I",
+    "rephrase_prompt": "Jordans Mine is a Portland Stone mine on Portland. Where is World War I? It is located in"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       28760
+      ]
+     ],
+     "neighborhood_acc": [
+      0.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     1.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       284
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 7,
+   "requested_rewrite": {
+    "prompt": "Olga Vittoria Gentilli speaks",
+    "target_new": "French",
+    "ground_truth": "Italian",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "Christina I of Sweden speaks",
+      "ground_truth": "Italian"
+     }
+    },
+    "subject": "Olga Vittoria Gentilli",
+    "rephrase_prompt": "So the cedar is spared and is not cut down. Olga Vittoria Gentilli speaks the language"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       25
+      ]
+     ],
+     "neighborhood_acc": [
+      0.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     1.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       407
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 8,
+   "requested_rewrite": {
+    "prompt": "Gila Almagor writes in",
+    "target_new": "English",
+    "ground_truth": "Hebrew",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "The language used by Johann Reuchlin is",
+      "ground_truth": "Hebrew"
+     }
+    },
+    "subject": "Gila Almagor",
+    "rephrase_prompt": "Gemauerter Stein is a mountain of Saxony, southeastern Germany. Gila Almagor speaks"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       198
+      ]
+     ],
+     "neighborhood_acc": [
+      0.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   }
+  },
+  {
+   "pre": {
+    "rewrite_acc": [
+     0.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       262
+      ]
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     0.0
+    ]
+   },
+   "case_id": 9,
+   "requested_rewrite": {
+    "prompt": "West Beirut, created in",
+    "target_new": "Japan",
+    "ground_truth": "Lebanon",
+    "portability": {},
+    "locality": {
+     "neighborhood": {
+      "prompt": "T\u0101r\u012bkh al-Khulaf\u0101\u02bc al-R\u0101shid\u012bn : al-fut\u016b\u1e25\u0101t wa-al-inj\u0101z\u0101t al-siy\u0101s\u012byah, that was from",
+      "ground_truth": "Lebanon"
+     }
+    },
+    "subject": "West Beirut",
+    "rephrase_prompt": "They set up an emergency hospital in a vacant monastery. West Beirut originated in"
+   },
+   "post": {
+    "rewrite_acc": [
+     1.0
+    ],
+    "metric_meta": {
+     "rewrite": {
+      "result_key": "rewrite_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "rephrase": {
+      "result_key": "rephrase_acc",
+      "protocol": "decoder_only_teacher_forcing",
+      "scorer": "token_accuracy",
+      "comparable_group": "lm.decoder_only_teacher_forcing.token_accuracy"
+     },
+     "locality.neighborhood": {
+      "result_key": "locality.neighborhood_acc",
+      "protocol": "pre_post_argmax_token_match",
+      "scorer": "token_match",
+      "comparable_group": "locality.lm.pre_post_argmax_token_match"
+     }
+    },
+    "locality": {
+     "neighborhood_output": [
+      [
+       12429
+      ]
+     ],
+     "neighborhood_acc": [
+      0.0
+     ]
+    },
+    "portability": {},
+    "rephrase_acc": [
+     1.0
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "easyedit_commit": "14cea8245f06715684592ab55184939b99d70784",
+ "easyedit_commit_date": "2026-07-14T20:46:48+08:00",
+ "easyedit_remote": "https://github.com/zjunlp/EasyEdit.git",
+ "easyedit_dirty": "1",
+ "easyedit_diff_sha256": "a60bf97ab84112079e6d8a0325769c26c96137e71b80be45618e387a7bb073a1",
+ "venv_python": "Python 3.12.3",
+ "venv_packages": "accelerate==1.14.0\ndatasets==4.8.5\nnumpy==2.2.6\npeft==0.18.0\nsafetensors==0.8.0\nsentencepiece==0.2.0\ntokenizers==0.22.1\ntorch==2.9.1\ntransformers==5.5.4",
+ "harness_python": "Python 3.12.3",
+ "harness_packages": "numpy==2.1.2\nsafetensors==0.8.0\ntokenizers==0.21.4\ntorch==2.8.0+cu128\ntransformers==4.55.2",
+ "gpu": "NVIDIA A100-SXM4-80GB, 580.159.04, 81920 MiB",
+ "cuda": "",
+ "kernel": "6.8.0-124-generic",
+ "base_model": "/workspace/cf/gpt-j-6b-bf16",
+ "base_model_files_sha256": {
+  "BF16_BUILD.json": "b44b1d3a4f716379ad462400a1118039a9b6e667c19d494a5371ddf6c90586aa",
+  "added_tokens.json": "bf3d6c81cc37afb73c78dda96901cf926ed21372d2d4edb718dc5387372f8c21",
+  "config.json": "ff6d3b54d70e94100368a04ec850839bbfb67fe865519f0c03a32cdc8bd03878",
+  "model.safetensors": "12eace8ae1503f482b317dbbc5666721d3650c925335cdbf88cfdda23fe7ca26",
+  "special_tokens_map.json": "a00e1f660c842693e7f667898759c24eb538c2dbb09b91c22dbde1b45d4cdee8",
+  "tokenizer.json": "f758fc1ee05a0775387ad8fa3983fab0c40e4a05cf6b7aea00a29e696cd6205c",
+  "tokenizer_config.json": "b00f36057bdb374232a41bf769c5e1e985fe7108355192b03f125e6f6101b2df",
+  "vocab.json": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+ },
+ "seed_grep": "",
+ "AlphaEdit_easyedit_summary": {
+  "method": "AlphaEdit",
+  "n_edits": 1000,
+  "protocol": "sequential batches of 100",
+  "hparams": "hparams/AlphaEdit/gpt-j-6B.yaml",
+  "model": "/workspace/cf/gpt-j-6b",
+  "wall_s": 5819.3,
+  "easyedit_rewrite_acc": 0.995,
+  "easyedit_rephrase_acc": 0.74,
+  "n_metric_rows": 1000,
+  "layer_stats_batch_tokens": 8192,
+  "batch_size": 100,
+  "sequential_edit": true,
+  "easyedit_deviation": "batch_tokens capped at 8,192 (EasyEdit default = 3 x n_positions). Covariance is a token sum; result identical. Applied to ROME, MEMIT, AlphaEdit equally. Inert for GPT-J (n_positions 2048 < cap).",
+  "easyedit_load_dtype": "torch.float32",
+  "saved_dtype": "bfloat16"
+ }
+}

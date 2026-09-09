@@ -1,0 +1,60 @@
+/workspace/cf/venv_easyedit/lib/python3.12/site-packages/timm/models/hub.py:4: FutureWarning: Importing from timm.models.hub is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+2026-09-08 20:39:44,820 - easyeditor.editors.editor - INFO - Instantiating model
+09/08/2026 20:39:44 - INFO - easyeditor.editors.editor -   Instantiating model
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/285 [00:00<?, ?it/s]Loading weights: 100%|██████████| 285/285 [00:00<00:00, 26478.61it/s]
+[1mGPTJForCausalLM LOAD REPORT[0m from: /workspace/cf/gpt-j-6b
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+transformer.h.{0...27}.attn.bias        | UNEXPECTED |  | 
+transformer.h.{0...27}.attn.masked_bias | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[20:41:33][ROME] start: model /workspace/cf/gpt-j-6b; hparams hparams/ROME/gpt-j-6B.yaml; N=1; model dtype as loaded by EasyEdit: torch.float32
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.32s/it]100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]Executing ROME algorithm for the update: [Yoruba religion is a part of the continent of] -> [ Antarctica]
+Cached context templates ['{}', 'The present invention relates to. {}', 'The present invention disclosed invention. {}', 'Therefore, in a,. {}', 'Therefore, I would-. {}', "Because we're of the. {}", 'Because I amorphan. {}', 'I am the_m. {}', 'I have aksos. {}', "You're aintube. {}", 'You are the man,. {}', 'The invention relates of the  \n. {}', 'The present invention relates.  \n. {}', 'Therefore we have the, it is it is the. {}', 'Therefore, the next to get the next week after. {}', 'Because we are you know that  it�. {}', 'Because the I\u200f of you are you can. {}', "I'm ave been trying to_0-. {}", 'I[^[^2_i.s. {}', "You can'tsefrappan, sir. {}", "You're probably don‒re not only need. {}"]
+Computing left vector (u)...
+Selected u projection object Yoruba religion
+Left vector shape: torch.Size([16384])
+Computing right vector (v)
+Lookup index found: 3 | Sentence: Yoruba religion is a part of the continent of | Token:  religion
+Rewrite layer is 5
+Tying optimization objective to 27
+Recording initial value of v*
+loss 12.817 = 12.817 + 0.0 + 0.0 avg prob of [ Antarctica] 3.58176384906983e-06
+loss 7.184 = 7.005 + 0.14 + 0.039 avg prob of [ Antarctica] 0.001106048352085054
+loss 3.777 = 3.609 + 0.107 + 0.061 avg prob of [ Antarctica] 0.030747663229703903
+loss 1.339 = 1.175 + 0.086 + 0.078 avg prob of [ Antarctica] 0.35063818097114563
+loss 0.187 = 0.058 + 0.038 + 0.091 avg prob of [ Antarctica] 0.9437776207923889
+loss 0.158 = 0.035 + 0.024 + 0.099 avg prob of [ Antarctica] 0.9660861492156982
+loss 0.141 = 0.026 + 0.015 + 0.099 avg prob of [ Antarctica] 0.9741314649581909
+loss 0.13 = 0.021 + 0.01 + 0.099 avg prob of [ Antarctica] 0.979388952255249
+loss 0.122 = 0.017 + 0.007 + 0.099 avg prob of [ Antarctica] 0.9834805727005005
+loss 0.118 = 0.013 + 0.006 + 0.099 avg prob of [ Antarctica] 0.9867944717407227
+loss 0.115 = 0.011 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9894228577613831
+loss 0.112 = 0.009 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9914763569831848
+loss 0.111 = 0.007 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9930736422538757
+loss 0.109 = 0.006 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9943188428878784
+loss 0.108 = 0.005 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9952932000160217
+loss 0.107 = 0.004 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9960607290267944
+loss 0.107 = 0.003 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9966688752174377
+loss 0.106 = 0.003 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9971547722816467
+loss 0.106 = 0.002 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9975457191467285
+loss 0.106 = 0.002 + 0.005 + 0.099 avg prob of [ Antarctica] 0.9978628754615784
+Delta norm: 80.8876953125
+Change in target norm: 20.221923828125 to 83.2208023071289 => 62.998878479003906
+Division Factor: 17.414716720581055
+Right vector norm: 4.644789695739746
+Right vector shape: torch.Size([4096])
+Deltas successfully computed for ['transformer.h.5.mlp.fc_out.weight']
+New weights successfully inserted into ['transformer.h.5.mlp.fc_out.weight']
+100%|██████████| 1/1 [00:15<00:00, 15.50s/it]100%|██████████| 1/1 [00:15<00:00, 15.50s/it]
+Metric Protocol Summary:  {'post.locality.neighborhood': ['locality.lm.pre_post_argmax_token_match'], 'post.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'post.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy']}
+Metrics Summary:  {'pre': {'rewrite_acc': np.float64(0.0), 'rephrase_acc': np.float64(0.0)}, 'post': {'rewrite_acc': np.float64(1.0), 'rephrase_acc': np.float64(0.0), 'locality': {'neighborhood_acc': np.float64(1.0)}}, 'metric_protocols': {'post.locality.neighborhood': ['locality.lm.pre_post_argmax_token_match'], 'post.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'post.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rephrase': ['lm.decoder_only_teacher_forcing.token_accuracy'], 'pre.rewrite': ['lm.decoder_only_teacher_forcing.token_accuracy']}}
+[20:41:49][ROME] edits done in 17s; EasyEdit rewrite_acc=1.0 rephrase_acc=0.0; saving weights
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:31<00:00, 31.28s/it]Writing model shards: 100%|██████████| 1/1 [00:31<00:00, 31.29s/it]
+[20:42:37][ROME] saved -> /workspace/cf/edited/ROME1/model
+CF_EASYEDIT_DONE

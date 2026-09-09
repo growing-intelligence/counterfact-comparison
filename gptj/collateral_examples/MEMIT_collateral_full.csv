@@ -1,0 +1,111 @@
+idx,question,subject,correct_answer,base_rank,post_rank,post_top1_answer,answer_in_question,semantically_adjacent_to_an_edit,answer_coincides_with_an_edit_target,wrong_answer_coincides_with_an_edit_target
+1002,Marsh Glacier belongs to the continent of,Marsh Glacier,Antarctica,1,3,Africa,False,False,True,True
+1004,"Renault Safrane, produced by",Renault Safrane,Renault,1,2,the,True,False,True,False
+1008,"In Nebraska, the language spoken is",Nebraska,English,1,2,German,False,False,True,True
+1009,Paul Frankeur is a native speaker of,Paul Frankeur,French,1,2,Dutch,False,False,True,True
+1035,"Nissan Prince Royal, developed by",Nissan Prince Royal,Nissan,1,3,Renault,True,False,True,True
+1037,BMW 3 Series is created by,BMW 3 Series,BMW,1,15,Dodge,True,False,True,True
+1042,Windows Embedded CE 6.0 is a product of,Windows Embedded CE 6.0,Microsoft,1,4,Intel,False,False,True,True
+1043,"In Solna Municipality, an official language is",Solna Municipality,Swedish,1,3,French,False,False,True,True
+1045,The official religion of Kingdom of Pajang is,Kingdom of Pajang,Islam,1,4,the,False,False,True,False
+1046,iPod shuffle is produced by,iPod shuffle,Apple,1,7,Boeing,False,True,True,True
+1049,"Toyota Mark X ZiO, developed by",Toyota Mark X ZiO,Toyota,1,5,Google,True,False,True,True
+1051,The Weeknd originates from,The Weeknd,Toronto,1,10,the,False,False,True,False
+1053,Honda Airwave is a product of,Honda Airwave,Honda,1,2,the,True,False,True,False
+1060,"Fiat Tempra, developed by",Fiat Tempra,Fiat,1,2,Toyota,True,False,True,True
+1061,"BMW i3, produced by",BMW i3,BMW,1,4,the,True,False,True,False
+1064,"Chevrolet Greenbrier, created by",Chevrolet Greenbrier,Chevrolet,1,3,General,True,False,True,False
+1066,"Donald Kaberry, Baron Kaberry of Adel worked in the city of","Donald Kaberry, Baron Kaberry of Adel",London,1,2,Paris,False,False,True,True
+1067,Cape Yelcho belongs to the continent of,Cape Yelcho,Antarctica,1,2,Asia,False,False,True,True
+1070,"Paul Otellini, of",Paul Otellini,Intel,1,3,the,False,False,True,False
+1071,Yamaha TZR250 is developed by,Yamaha TZR250,Yamaha,1,2,Honda,True,False,False,True
+1083,"Jessy De Smet, who has a citizenship from",Jessy De Smet,Belgium,1,6,the,False,False,True,False
+1094,Brown University is located in,Brown University,Providence,1,2,the,False,False,False,False
+1101,Gwen Stefani is a native speaker of,Gwen Stefani,English,1,2,French,False,False,True,True
+1104,"Ferrari 550, produced by",Ferrari 550,Ferrari,1,2,the,True,False,False,False
+1126,The language of Serbian Wikipedia is,Serbian Wikipedia,Serbian,1,26,Russian,True,False,False,True
+1127,Kingdom of Wessex's capital is,Kingdom of Wessex,Winchester,1,1151,located,False,False,False,False
+1129,Where is Rome Film Festival? It is located in,Rome Film Festival,Rome,1,40,Latvia,True,False,True,True
+1135,"Apple A8, a product of",Apple A8,Apple,1,581,Google,True,False,True,True
+1138,Cadillac Series 60 is developed by,Cadillac Series 60,Cadillac,1,13,IBM,True,False,True,True
+1144,Mirbag-e Shomali Rural District is located in the country of,Mirbag-e Shomali Rural District,Iran,1,30,Poland,False,False,True,True
+1145,"Chevrolet El Camino, developed by",Chevrolet El Camino,Chevrolet,1,5,General,True,False,True,False
+1146,Chevrolet Bel Air is created by,Chevrolet Bel Air,Chevrolet,1,10,the,True,False,True,False
+1147,"In Honduras, the language spoken is",Honduras,Spanish,1,2,French,False,False,True,True
+1174,CBS Playhouse premieres on,CBS Playhouse,CBS,1,3,MTV,True,False,True,True
+1176,Adobe Media Player is developed by,Adobe Media Player,Adobe,1,2,Apple,True,False,False,True
+1185,The official language of Raseborg is,Raseborg,Swedish,1,2,Norwegian,False,False,True,True
+1187,Google Finance is from,Google Finance,Google,1,4,Microsoft,True,False,True,True
+1196,The official religion of Al-Mukhtar is,Al-Mukhtar,Islam,1,2,the,False,False,True,False
+1200,Porsche 904 is created by,Porsche 904,Porsche,1,8,Chevrolet,True,False,True,True
+1203,Google Checkout was created by,Google Checkout,Google,1,2,eBay,True,False,True,False
+1213,"HyperTalk, a product manufactured by",HyperTalk,Apple,1,3,Microsoft,False,False,True,True
+1215,Wednesday Night Baseball premiered on,Wednesday Night Baseball,ESPN,1,2,NBC,False,False,True,True
+1218,Alaa Abdul-Zahra was born in,Alaa Abdul-Zahra,Baghdad,1,5,the,False,False,True,False
+1220,"Maria Wetterstrand, who has a citizenship from",Maria Wetterstrand,Sweden,1,2,Finland,False,False,True,True
+1225,Nissan NV200 is developed by,Nissan NV200,Nissan,1,9,Renault,True,False,True,True
+1233,Douglas DC-5 is produced by,Douglas DC-5,Douglas,1,2,the,True,False,False,False
+1238,Akhoond follows the religion of,Akhoond,Islam,1,4,the,False,False,True,False
+1244,Adrien Albert Marie de Mun worked in the city of,Adrien Albert Marie de Mun,Paris,1,2,Brussels,False,False,True,False
+1250,Edinburgh Mathematical Society works in the area of,Edinburgh Mathematical Society,mathematics,1,2,mathematical,False,False,True,False
+1251,Percy Grainger plays the,Percy Grainger,piano,1,2,ban,False,False,True,False
+1255,Intel Parallel Studio is created by,Intel Parallel Studio,Intel,1,2,IBM,True,False,True,True
+1258,Renault 18 is created by,Renault 18,Renault,1,3,the,True,False,True,False
+1259,Honda Acty is created by,Honda Acty,Honda,1,2,the,True,False,True,False
+1260,"Chrysler 300C, created by",Chrysler 300C,Chrysler,1,2,the,True,False,False,False
+1263,"Nissan Terrano II, developed by",Nissan Terrano II,Nissan,1,12,Renault,True,False,True,True
+1264,Dodge A100 is developed by,Dodge A100,Dodge,1,31,Fiat,True,False,True,True
+1280,"Volvo V70, produced by",Volvo V70,Volvo,1,44,Toyota,True,False,True,True
+1282,Urdoviza Glacier is a part of the continent of,Urdoviza Glacier,Antarctica,1,3,Asia,False,False,True,True
+1286,German Wikipedia is written in,German Wikipedia,German,1,4,Russian,True,False,True,True
+1290,"matcha, that was formulated in",matcha,Japan,1,2,the,False,False,True,False
+1295,The official language of Finnish Orthodox Church is,Finnish Orthodox Church,Finnish,1,2,Russian,True,False,True,True
+1304,Schreckhorn is a part of the continent of,Schreckhorn,Europe,1,2,Europe,False,False,True,True
+1317,The Judy Garland Show was originally aired on,The Judy Garland Show,CBS,1,2,NBC,False,False,True,True
+1323,Nissan Quest is developed by,Nissan Quest,Nissan,1,4,the,True,False,True,False
+1324,Nissan Vanette is developed by,Nissan Vanette,Nissan,1,2,Renault,True,False,True,True
+1335,Where is Cairo International Film Festival? It is located in,Cairo International Film Festival,Cairo,1,3458,Latvia,True,False,True,True
+1342,Google Translate was developed by,Google Translate,Google,1,5,Microsoft,True,False,True,True
+1345,Anastasia Myskina is a native speaker of,Anastasia Myskina,Russian,1,2,Spanish,False,True,True,True
+1351,Madhur Bhandarkar is originally from,Madhur Bhandarkar,Mumbai,1,2,India,False,False,True,True
+1361,"Fiat 500X, produced by",Fiat 500X,Fiat,1,36,Motorola,True,False,True,False
+1362,Tina Turner is a native speaker of,Tina Turner,English,1,4,Italian,False,False,True,True
+1364,Strom Glacier belongs to the continent of,Strom Glacier,Antarctica,1,5,Africa,False,False,True,True
+1367,"Honda Passport, developed by",Honda Passport,Honda,1,4,the,True,False,True,False
+1370,Cadillac Northstar LMP is developed by,Cadillac Northstar LMP,Cadillac,1,7,GM,True,False,True,False
+1377,Huachocolpa District is located in the country of,Huachocolpa District,Peru,1,2,Bolivia,False,False,True,False
+1385,"Toyota Land Cruiser, produced by",Toyota Land Cruiser,Toyota,1,2,the,True,False,True,False
+1388,"Honda Pilot, produced by",Honda Pilot,Honda,1,2,Toyota,True,False,True,True
+1391,Hansen Glacier is a part of the continent of,Hansen Glacier,Antarctica,1,3,Africa,False,False,True,True
+1397,The Doris Day Show debuted on,The Doris Day Show,CBS,1,2,NBC,False,False,True,True
+1405,Jaap Spaanderman plays the,Jaap Spaanderman,piano,1,2,role,False,False,True,False
+1411,Windows Movie Maker is developed by,Windows Movie Maker,Microsoft,1,2,Apple,False,False,True,True
+1415,Wii U system software is a product of,Wii U system software,Nintendo,1,4,the,False,False,True,False
+1428,"In Zhovti Vody, the language spoken is",Zhovti Vody,Russian,1,2,Ukrainian,False,False,True,False
+1433,"Montreal Light, Heat & Power is based in","Montreal Light, Heat & Power",Montreal,1,5,the,True,False,True,False
+1439,"Toyota Carina, created by",Toyota Carina,Toyota,1,2,the,True,False,True,False
+1440,"Nissan Livina Geniss, produced by",Nissan Livina Geniss,Nissan,1,3,Renault,True,False,True,True
+1441,Cheers was originally aired on,Cheers,NBC,1,2,the,False,False,True,False
+1442,"Egyptian Exchange, whose headquarters are in",Egyptian Exchange,Cairo,1,11,London,False,False,True,True
+1445,Lindsey Davis is a native speaker of,Lindsey Davis,English,1,2,Italian,False,False,True,True
+1447,"Toyota Carina ED, created by",Toyota Carina ED,Toyota,1,2,the,True,False,True,False
+1451,Splettstoesser Glacier is a part of the continent of,Splettstoesser Glacier,Antarctica,1,3,Africa,False,False,True,True
+1454,Howchin Glacier belongs to the continent of,Howchin Glacier,Antarctica,1,5,Asia,False,False,True,True
+1457,Famous Players Film Company is headquartered in,Famous Players Film Company,Hollywood,1,4,London,False,False,False,True
+1459,The language of Cihan News Agency is,Cihan News Agency,Turkish,1,2,English,False,False,True,True
+1461,Honda N360 is created by,Honda N360,Honda,1,2,the,True,False,True,False
+1464,The mother tongue of Frantz Fanon is,Frantz Fanon,French,1,2,Arabic,False,False,True,False
+1467,Lady Antebellum was started in,Lady Antebellum,Nashville,1,2,the,False,False,False,False
+1468,"Philippe Leclerc de Hauteclocque, a citizen of",Philippe Leclerc de Hauteclocque,France,1,3,Russia,False,False,True,True
+1472,"Adobe Photoshop Elements, a product of",Adobe Photoshop Elements,Adobe,1,2,the,True,False,False,False
+1474,The official language of French Community of Belgium is,French Community of Belgium,French,1,5,Persian,True,True,True,True
+1475,Melilla is a part of the continent of,Melilla,Africa,1,2,Europe,False,False,True,True
+1476,"Microsoft Macro Assembler, a product of",Microsoft Macro Assembler,Microsoft,1,3,the,True,False,True,False
+1479,"Quintin Hogg, Baron Hailsham of St Marylebone died in the city of","Quintin Hogg, Baron Hailsham of St Marylebone",London,1,2,Oxford,False,False,True,False
+1481,Nokia 8800 is a product of,Nokia 8800,Nokia,1,3,the,True,False,True,False
+1483,North Carolina Central University is headquartered in,North Carolina Central University,Durham,1,4,Beijing,False,True,False,True
+1485,Palmer Archipelago belongs to the continent of,Palmer Archipelago,Antarctica,1,2,Europe,False,False,True,True
+1488,"Moses Ndiema Masai, a citizen of",Moses Ndiema Masai,Kenya,1,2,the,False,False,False,False
+1491,Polydor Records is headquartered in,Polydor Records,London,1,4,Hamburg,False,False,True,True
+1495,Ferrari 125 F1 is developed by,Ferrari 125 F1,Ferrari,1,3,Apple,True,False,False,True
+1498,Jorum Glacier belongs to the continent of,Jorum Glacier,Antarctica,1,3,Asia,False,False,True,True

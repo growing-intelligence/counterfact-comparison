@@ -1,0 +1,98 @@
+{
+ "tag": "base_edits",
+ "split": "edits",
+ "model": "/workspace/cf/gpt-j-6b-bf16",
+ "plugin": null,
+ "harness": "/workspace/cf/scripts/cf_harness_gptj.py",
+ "harness_sha256": "174717075ab79272de76c4fcc9d1db7f962544b96aced0aba9c87a80a838f49b",
+ "model_files_sha256": {
+  "BF16_BUILD.json": "b44b1d3a4f716379ad462400a1118039a9b6e667c19d494a5371ddf6c90586aa",
+  "added_tokens.json": "bf3d6c81cc37afb73c78dda96901cf926ed21372d2d4edb718dc5387372f8c21",
+  "config.json": "ff6d3b54d70e94100368a04ec850839bbfb67fe865519f0c03a32cdc8bd03878",
+  "merges.txt": "fe36cab26d4f4421ed725e10a2e9ddb7f799449c603a96e7f29b5a3c82a95862",
+  "model.safetensors": "12eace8ae1503f482b317dbbc5666721d3650c925335cdbf88cfdda23fe7ca26",
+  "special_tokens_map.json": "a00e1f660c842693e7f667898759c24eb538c2dbb09b91c22dbde1b45d4cdee8",
+  "tokenizer.json": "f758fc1ee05a0775387ad8fa3983fab0c40e4a05cf6b7aea00a29e696cd6205c",
+  "tokenizer_config.json": "b00f36057bdb374232a41bf769c5e1e985fe7108355192b03f125e6f6101b2df",
+  "vocab.json": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+ },
+ "start_utc": "2026-09-07T17:35:17Z",
+ "memory_cap": null,
+ "gpu_apps_start": [],
+ "host_procs_start": [
+  "1    9907 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "45    9907 /bin/bash /start.sh",
+  "76    9907 nginx: master process /usr/sbin/nginx",
+  "77    9907 nginx: worker process",
+  "98    9907 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups",
+  "103    9907 /bin/bash /start.sh",
+  "110    9907 sleep infinity",
+  "111    9907 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+  "5943       0 /bin/sh -c ps -eo pid,etimes,cmd --no-headers",
+  "5944       0 ps -eo pid,etimes,cmd --no-headers"
+ ],
+ "gpu_log_during": [
+  "[17:35:17] "
+ ],
+ "violations": [],
+ "host_procs_during": [],
+ "pid": 5948,
+ "harness_returncode": 0,
+ "end_utc": "2026-09-07T17:35:43Z",
+ "gpu_apps_end": [],
+ "host_procs_end": [
+  "1    9933 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+  "45    9933 /bin/bash /start.sh",
+  "76    9933 nginx: master process /usr/sbin/nginx",
+  "77    9933 nginx: worker process",
+  "98    9933 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups",
+  "103    9933 /bin/bash /start.sh",
+  "110    9933 sleep infinity",
+  "111    9933 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+  "6111       0 /bin/sh -c ps -eo pid,etimes,cmd --no-headers",
+  "6112       0 ps -eo pid,etimes,cmd --no-headers"
+ ],
+ "platform_daemons_tolerated": {
+  "patterns": [
+   "/sbin/docker-init",
+   "/bin/bash /start.sh",
+   "nginx:",
+   "sleep infinity",
+   "sshd: /usr/sbin/sshd [listener]",
+   "jupyter-lab"
+  ],
+  "reason": "container daemons of this pod class, idle, none on the GPU; present during every measurement in the comparison",
+  "observed": [
+   "1    9907 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+   "1    9933 /sbin/docker-init -- /opt/nvidia/nvidia_entrypoint.sh /start.sh",
+   "103    9907 /bin/bash /start.sh",
+   "103    9933 /bin/bash /start.sh",
+   "110    9907 sleep infinity",
+   "110    9933 sleep infinity",
+   "111    9907 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+   "111    9933 /usr/local/bin/python /usr/local/bin/jupyter-lab --allow-root --no-browser --port=8888 --ip=* --FileContentsManager.delete_to_trash=False --ServerApp.terminado_settings={\"shell_command\":[\"/bin/bash\"]} --IdentityProvider.token=<REDACTED> --ServerApp.allow_origin=* --ServerApp.preferred_dir=/workspace",
+   "45    9907 /bin/bash /start.sh",
+   "45    9933 /bin/bash /start.sh",
+   "76    9907 nginx: master process /usr/sbin/nginx",
+   "76    9933 nginx: master process /usr/sbin/nginx",
+   "77    9907 nginx: worker process",
+   "77    9933 nginx: worker process",
+   "98    9907 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups",
+   "98    9933 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups"
+  ]
+ },
+ "forbidden_patterns": [
+  "sftp-server",
+  "root@notty",
+  "root@pts",
+  "rsync",
+  " scp ",
+  "any process outside the tolerated list",
+  "any GPU process other than this run"
+ ],
+ "sterile": true,
+ "verdict": "STERILE",
+ "results_sha256": "ad98274f1dc7a271bbc3ff3b0df566cfe6499f5a9ef263e27a83f8fd4fa9f04d",
+ "results_rows": 1000,
+ "credentials_redacted": "command lines in this record were passed through redact_credentials.py; credentials redacted"
+}

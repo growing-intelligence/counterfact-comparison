@@ -1,3 +1,0 @@
-start: model /root/llama-3.1-8b; hparams hparams/ROME/llama3-8b.yaml; N=10
-edits done in 19s; EasyEdit rewrite_acc=1.0 rephrase_acc=0.6; saving weights
-saved -> /root/cf/edited/ROME10/model

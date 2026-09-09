@@ -1,0 +1,3 @@
+start: model /workspace/cf/gpt-j-6b; hparams hparams/ROME/gpt-j-6B.yaml; N=1000; model dtype as loaded by EasyEdit: torch.float32
+edits done in 12697s; EasyEdit rewrite_acc=0.089 rephrase_acc=0.068; saving weights
+saved -> /workspace/cf/edited/ROME/model

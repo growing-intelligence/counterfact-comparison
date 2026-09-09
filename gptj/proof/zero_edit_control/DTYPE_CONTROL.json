@@ -1,0 +1,13 @@
+{
+ "utc": "2026-09-07T19:41:14Z",
+ "tensors": 341,
+ "compared": 341,
+ "bit_identical": 341,
+ "mismatched": [],
+ "dtypes_fp32": {
+  "torch.float32": 313,
+  "torch.bool": 28
+ },
+ "verdict": "NO_OP_PROVEN",
+ "statement": "GPT-J is published in float32 and loaded in float32 by the editing code; no dtype round-trip precedes an edit. The single fp32->bf16 cast at scoring time reproduces the scored base bit-exactly and applies identically to every edited copy, so the zero-edit floor is 0 by construction."
+}

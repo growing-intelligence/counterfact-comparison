@@ -1,0 +1,24 @@
+{
+ "MEMIT": {
+  "config.json": {
+   "sha256": "9bd6fc82b39f073cd2d18ff6d074a328d51ccd8333c8b868b221dd776fdf3bac",
+   "bytes": 971
+  },
+  "generation_config.json": {
+   "sha256": "6a024126d574ee2bfa438ea7e6095faac11adc76905bd6ffbbbaef0f52e796dc",
+   "bytes": 139
+  },
+  "model.safetensors": {
+   "sha256": "91a2d65aa0f7e9bf24ffe2ba24533dd417c7daa968dbc81a2d9e3c0a4f3cf8f6",
+   "bytes": 12101796792
+  },
+  "tokenizer.json": {
+   "sha256": "400eac4690721bdef7c8a2c5d8b9bba8964501ef1787bd497576eadb503a0bf7",
+   "bytes": 3585577
+  },
+  "tokenizer_config.json": {
+   "sha256": "e0c5279a3ffb37371bee31e5ab0bd14f49d396646c8bbf142e995721934038eb",
+   "bytes": 317
+  }
+ }
+}

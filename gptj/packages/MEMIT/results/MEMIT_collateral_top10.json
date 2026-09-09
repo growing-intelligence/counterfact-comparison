@@ -1,0 +1,117 @@
+{
+ "method": "MEMIT",
+ "n_newly_broken": 110,
+ "n_candidates_after_objective_filter": 26,
+ "top10": [
+  {
+   "idx": 1127,
+   "question": "Kingdom of Wessex's capital is",
+   "subject": "Kingdom of Wessex",
+   "correct_answer": "Winchester",
+   "base_rank": 1,
+   "post_rank": 1151,
+   "post_top1_answer": "located",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1144,
+   "question": "Mirbag-e Shomali Rural District is located in the country of",
+   "subject": "Mirbag-e Shomali Rural District",
+   "correct_answer": "Iran",
+   "base_rank": 1,
+   "post_rank": 30,
+   "post_top1_answer": "Poland",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1442,
+   "question": "Egyptian Exchange, whose headquarters are in",
+   "subject": "Egyptian Exchange",
+   "correct_answer": "Cairo",
+   "base_rank": 1,
+   "post_rank": 11,
+   "post_top1_answer": "London",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1051,
+   "question": "The Weeknd originates from",
+   "subject": "The Weeknd",
+   "correct_answer": "Toronto",
+   "base_rank": 1,
+   "post_rank": 10,
+   "post_top1_answer": "the",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1046,
+   "question": "iPod shuffle is produced by",
+   "subject": "iPod shuffle",
+   "correct_answer": "Apple",
+   "base_rank": 1,
+   "post_rank": 7,
+   "post_top1_answer": "Boeing",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": true
+  },
+  {
+   "idx": 1083,
+   "question": "Jessy De Smet, who has a citizenship from",
+   "subject": "Jessy De Smet",
+   "correct_answer": "Belgium",
+   "base_rank": 1,
+   "post_rank": 6,
+   "post_top1_answer": "the",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1218,
+   "question": "Alaa Abdul-Zahra was born in",
+   "subject": "Alaa Abdul-Zahra",
+   "correct_answer": "Baghdad",
+   "base_rank": 1,
+   "post_rank": 5,
+   "post_top1_answer": "the",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1364,
+   "question": "Strom Glacier belongs to the continent of",
+   "subject": "Strom Glacier",
+   "correct_answer": "Antarctica",
+   "base_rank": 1,
+   "post_rank": 5,
+   "post_top1_answer": "Africa",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1454,
+   "question": "Howchin Glacier belongs to the continent of",
+   "subject": "Howchin Glacier",
+   "correct_answer": "Antarctica",
+   "base_rank": 1,
+   "post_rank": 5,
+   "post_top1_answer": "Asia",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  },
+  {
+   "idx": 1042,
+   "question": "Windows Embedded CE 6.0 is a product of",
+   "subject": "Windows Embedded CE 6.0",
+   "correct_answer": "Microsoft",
+   "base_rank": 1,
+   "post_rank": 4,
+   "post_top1_answer": "Intel",
+   "answer_in_question": false,
+   "semantically_adjacent_to_an_edit": false
+  }
+ ]
+}
