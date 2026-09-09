@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22664170.svg)](https://doi.org/10.5281/zenodo.22664170)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22664169.svg)](https://doi.org/10.5281/zenodo.22664169)
 
 # CounterFact × 4 Methods — One Model, One Harness
 
