@@ -100,14 +100,36 @@ Fewer edits landed than AlphaEdit on Llama (84.1% vs 99.0%); slightly fewer on G
 
 ## Verify it yourself
 
-Every number in this repository is recounted from raw per-row result files. Each model ships five reproducibility packages, a signed certificate and a verifier:
+Every number in this repository is recounted from raw per-row result files. Each model ships five reproducibility packages, a signed certificate and a verifier.
 
-```
-python llama/proof/verify_certificate.py llama/proof/CounterFact-certificate-SIGNED.json
-python gptj/proof/verify_certificate.py  gptj/proof/CounterFact-certificate-SIGNED.json
-```
+### Prerequisites
+You need Python 3.9+ and git. Check:
 
-Run both from the repository root — one command per model. Each checks the Ed25519 signature, the certificate's own canonical hash, every file hash, and the Merkle root over them, and prints `RESULT: OK`.
+    python --version
+    git --version
+
+If either is missing:
+- Python: https://www.python.org/downloads/ — during install, tick
+  "Add python.exe to PATH", then reopen your terminal.
+- git: https://git-scm.com/downloads
+
+Install the one dependency (Ed25519 signature check):
+
+    python -m pip install cryptography
+
+### Verify
+Run from the repository root — one command per model:
+
+    git clone https://github.com/growing-intelligence/counterfact-comparison
+    cd counterfact-comparison
+    python llama/proof/verify_certificate.py llama/proof/CounterFact-certificate-SIGNED.json
+    python gptj/proof/verify_certificate.py  gptj/proof/CounterFact-certificate-SIGNED.json
+
+Each prints `RESULT: OK`. If you see `ModuleNotFoundError: No module named 'cryptography'`, run the
+pip line above. If you see a file-not-found error, make sure you are inside
+the `counterfact-comparison` folder.
+
+Each check covers the Ed25519 signature, the certificate's own canonical hash, every file hash, and the Merkle root over them.
 
 Growing Intelligence public key: `FtrWshUc/9rg5Cz+ARi5DP/yyqFhWMJLmx0VHKc3wpk=`
 
