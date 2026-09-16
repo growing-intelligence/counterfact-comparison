@@ -37,6 +37,8 @@ Held-out general benchmarks, same runs:
 
 The nearby-fact denominators differ (492 and 499) because each is the count of controls the *unmodified* model already answered at rank 1. Everything is counted against that floor, per model.
 
+Two "broken" figures appear in this repository and they are not the same metric. The table above counts nearby facts broken among the controls only (492 / 499). The MRI figures' headline "Broke" totals count every scored row that was rank 1 before and is not after — controls, edits and the 5,209 held-out questions together — which is why ROME reads 2,233 there and 492 here. Both come from the same per-row files.
+
 ---
 
 ## Two conclusions
